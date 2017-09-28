@@ -1,0 +1,196 @@
+body {
+    height: 100%;
+    /* background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
+  background-color:lightsteelblue;*/
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+
+.navbar {
+    /*shadow*/
+    -webkit-box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);
+    -moz-box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);
+    box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);-webkit-box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);
+    -moz-box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);
+    box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.44);
+
+    /*gradient and color*/
+    background: rgba(205,221,228,1);
+    background: -moz-linear-gradient(top, rgba(205,221,228,1) 0%, rgba(155,178,191,1) 0%, rgba(185,202,212,1) 24%, rgba(182,218,241,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205,221,228,1)), color-stop(0%, rgba(155,178,191,1)), color-stop(24%, rgba(185,202,212,1)), color-stop(100%, rgba(182,218,241,1)));
+    background: -webkit-linear-gradient(top, rgba(205,221,228,1) 0%, rgba(155,178,191,1) 0%, rgba(185,202,212,1) 24%, rgba(182,218,241,1) 100%);
+    background: -o-linear-gradient(top, rgba(205,221,228,1) 0%, rgba(155,178,191,1) 0%, rgba(185,202,212,1) 24%, rgba(182,218,241,1) 100%);
+    background: -ms-linear-gradient(top, rgba(205,221,228,1) 0%, rgba(155,178,191,1) 0%, rgba(185,202,212,1) 24%, rgba(182,218,241,1) 100%);
+    background: linear-gradient(to bottom, rgba(205,221,228,1) 0%, rgba(155,178,191,1) 0%, rgba(185,202,212,1) 24%, rgba(182,218,241,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cddde4', endColorstr='#b6daf1', GradientType=0 );
+}
+#nav li {
+    /*space between links in menu*/
+    padding-right: 20px;
+}
+/*Styles for navbar links and dropdown links*/
+.dropdown-content a { color: dimgray;
+                    padding:  5px 10px;
+                    text-decoration: none;
+                    display: block;
+                    font-size: small;
+
+         }
+.dropdown-content a:hover {
+    background-color: gainsboro}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/*.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}*/
+
+/*Styles for jumbotron*/
+.jumbotron-padding {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ .jumbotron-background {
+
+    background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') center center no-repeat;
+    background-size: cover ;
+
+}
+
+
+
+.card-shadow {
+    -webkit-box-shadow: 6px -4px 6px -2px rgba(0,0,0,0.37);
+    -moz-box-shadow: 6px -4px 6px -2px rgba(0,0,0,0.37);
+    box-shadow: 6px -4px 6px -2px rgba(0,0,0,0.37);
+}
+.newsbox-size {
+    width: 100px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Carousel */
+@media (min-width: 768px) {
+
+     /*show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+     /*left or forward direction*/
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+     /*farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+     /*right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* /.Carousel */
+
+
+/* Column-count in Pictures*/
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}/* /.Column-count */
+
+
+
+
