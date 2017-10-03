@@ -15,7 +15,7 @@
     <link rel="manifest" href="../favicons/manifest.json">
     <meta name="theme-color" content="#bdb95e">
 
-    <title>Usa.Advayta</title>
+    <title>Фото/Галлерея-usa.advayta.org</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -44,30 +44,30 @@ include("layout/nav.php");
 
     <div class="card-columns ">
         <div class="card " >
-            <img class="card-img-top img-fluid  " src="../public/images/om.jpg" alt="Card image">
+            <img class="card-img-top img-fluid " src="../public/images/om.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img-top img-fluid  " src="../public/images/om.jpg" alt="Card image">
+            <img class="card-img-top img-fluid" src="../public/images/om.jpg" alt="Card image">
         </div>
-        <div class="card " ">
+        <div class="card " >
+            <img class="card-img-top img-fluid" src="../public/images/om.jpg" alt="Card image">
+        </div>
+        <div class="card " >
             <img class="card-img-top img-fluid " src="../public/images/om.jpg" alt="Card image">
         </div>
-        <div class="card " ">
-            <img class="card-img-top img-fluid " src="../public/images/om.jpg" alt="Card image">
-        </div>
-        <div class="card " ">
+        <div class="card " >
             <img class="card-img img-fluid " src="//placehold.it/800x1230/000/fff" alt="Card image">
         </div>
         <div class="card " >
             <img class="card-img-top img-fluid " src="//placehold.it/800x600/cc44cc/000" alt="Card image cap">
         </div>
-        <div class="card "  ">
+        <div class="card">
             <img class="card-img-top img-fluid l" src="../public/images/om.jpg" alt="Card image">
         </div>
-        <div class="card "  ">
+        <div class="card ">
             <img class="card-img-top img-fluid " src="//placehold.it/800x600" alt="Card image cap">
         </div>
-        <div class="card "  ">
+        <div class="card ">
             <img class="card-img-top img-fluid l" src="../public/images/Datta.png" alt="Card image">
         </div>
         <div class="card " >

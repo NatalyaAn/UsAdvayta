@@ -1,0 +1,43 @@
+{
+  "name": "bigpoint/slim-bootstrap3",
+  "type": "library",
+  "description": "These classes provide a simple way to bootstrap a slim v3 application with authentication.",
+  "homepage" : "https://github.com/bigpoint/slim-bootstrap3",
+  "keywords": ["microframework","rest","router","slim"],
+  "license" : "Apache-2.0",
+  "authors": [
+    {
+      "name": "Andreas Schleifer",
+      "email": "aschleifer@bigpoint.net"
+    }
+  ],
+  "support" : {
+    "issues" : "https://github.com/bigpoint/slim-bootstrap3/issues"
+  },
+  "require": {
+    "php": ">=7.0",
+    "bigpoint/http-caller-php": "1.*",
+    "monolog/monolog": "1.*",
+    "slim/http-cache": "0.*",
+    "slim/slim": "3.*"
+  },
+  "suggest": {
+    "ext-gmp": "needed for JWT support",
+    "lcobucci/jwt": "needed for JWT support (3.*)",
+    "mdanter/ecc": "needed for JWT support (0.3.*)"
+  },
+  "require-dev": {
+    "ext-gmp": "*",
+    "lcobucci/jwt": "3.*",
+    "mdanter/ecc": "0.3.*",
+    "phpunit/phpunit": "5.*"
+  },
+  "conflict": {
+    "bigpoint/slim-bootstrap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlimBootstrap\\": ["src/SlimBootstrap/"]
+    }
+  }
+}

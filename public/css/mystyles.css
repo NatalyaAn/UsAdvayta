@@ -78,7 +78,7 @@ body {
 
     background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') center center no-repeat;
     background-size: cover ;
-
+     -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 
 
@@ -189,8 +189,11 @@ body {
     .card-columns {
         column-count: 5;
     }
-}/* /.Column-count */
+}
+/* /.Column-count */
 
 
 
+/* Image hover zoom */
 
+/* /.Image hover zoom */

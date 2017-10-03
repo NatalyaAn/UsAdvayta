@@ -29,7 +29,7 @@
     <link rel="manifest" href="../favicons/manifest.json">
     <meta name="theme-color" content="#bdb95e">
 
-    <title>Usa.Advayta</title>
+    <title>Видео/Галлерея-usa.advayta.org</title>
 
     <!-- Bootstrap core CSS -->
 
