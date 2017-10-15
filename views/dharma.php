@@ -28,6 +28,23 @@
     <link href="../public/css/mystyles.css" rel="stylesheet">
     <link href="../js/carousel.js" rel="stylesheet">
 
+    <style>
+        body{
+            /*perspective: 1200px;*/
+        }
+        .img-catoon {
+            display: block;
+            margin: 50px auto;
+            height: 150px;
+            border: 2px solid lime;
+            animation: ddd 15s linear infinite;
+        }
+        @keyframes  ddd {
+            0%{transform: rotateY(0deg);}
+            100%{transform: rotateY(360deg);}
+        }
+    </style>
+
 </head>
 
 <body >
@@ -44,6 +61,7 @@ include("layout/nav.php");
 
 
 <div class="  container ">
+    <img class="img-catoon" src="../public/images/Datta.png" >
 
     <h4 class="my-4 text-center">Три драгоценности</h4>
 

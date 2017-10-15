@@ -6,7 +6,9 @@ $news = '
 
 <p >
   <a class="link " data-toggle="collapse" href="#collapseNews" aria-expanded="true" aria-controls="collapseNews">
-    News
+
+    <span class="if-collapsed">Показать Новости</span>
+  <span class="if-not-collapsed">Закрыть</span>
   </a>
 </p>
 

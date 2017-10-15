@@ -27,7 +27,7 @@
 
     <link href="../public/css/mystyles.css" rel="stylesheet">
     <link href="../js/carousel.js" rel="stylesheet">
-
+    <link href="../js/navbar.js" rel="stylesheet">
 </head>
 
 <body >
@@ -41,16 +41,17 @@ include("layout/nav.php");
 
 
 <header>
-    <!-- #news-->
-    <?php
-    include("layout/news.php");
-    ?>
+    <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">
+        <h2 class="text-center">Йога в традиции сиддхов </h2>
+        <p class="lead text-center">...Website under constraction...</p>
+    </div>
+
 </header>
-<h2 class="my-4">...Website under constraction...</h2>
-<div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">
-    <h2 class="text-center">Йога в традиции сиддхов </h2>
-<p class="lead text-center">Your message here</p>
-</div>
+<!-- #news-->
+<?php
+include("layout/news.php");
+?>
+
 
 <div class="card-group">
     <div class="card card-inverse mb-3  ">
@@ -318,12 +319,6 @@ include("layout/footer.php");
 <script src="../vendor/jquery/jquery.min.js"></script>
 <script src="../vendor/popper/popper.min.js"></script>
 <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-
-
-
-
-
-
 
 
 
