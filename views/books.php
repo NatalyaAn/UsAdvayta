@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--<head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,9 +32,7 @@
 
 
 
-</head>-->
 
-<head>
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
@@ -73,10 +71,10 @@ include("layout/nav.php");
     <header class="text-center"><h3 >Книги</h3></header>
 
 
-    <div class="  container py-3 bg-faded">
+    <div class="  container py-3 bg-faded"><!--row1-->
     <div class="card-deck">
         <div class="card ">
-            <img class="card-img-top book-shadow book-size" src="../public/images/books/000005.jpg" alt="Card image cap">
+            <img class="card-img-top book-shadow book-size" src="../public/images/books/layaAmrita.jpg" alt="Освобождающий нектар драгоценных наставлений. Лайя Амрита Упадеша Чинтамани">
             <div class="card-block">
                 <p class="card-text" ><small></small></p>
                 <button type="button" class="btn btn-link" data-toggle="popover"
@@ -92,7 +90,7 @@ include("layout/nav.php");
             </div><!--card-block-->
         </div> <!--card-->
         <div class="card ">
-            <img class="card-img-top book-shadow book-size" src="../public/images/books/000009.jpg" alt="Card image cap">
+            <img class="card-img-top book-shadow book-size" src="../public/images/books/bojestvGordosti.jpg" alt="Путь божественной гордости. Свабхава Упадеша Чинтамани">
             <div class="card-block">
                 <p class="card-text" ><small></small></p>
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Путь божественной гордости. Свабхава Упадеша Чинтамани"
@@ -108,7 +106,7 @@ include("layout/nav.php");
             </div><!--card-block-->
         </div><!--card-->
         <div class="card ">
-            <img class="card-img-top book-shadow book-size" src="../public/images/books/000011.jpg" alt="Card image cap">
+            <img class="card-img-top book-shadow book-size" src="../public/images/books/rastvoren5elem.jpg" alt="Путь растворения пяти элементов. Панча Бхута Лайя Чинтана">
             <div class="card-block">
                 <p class="card-text" ><small></small></p>
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Путь растворения пяти элементов. Панча Бхута Лайя Чинтана"
@@ -120,7 +118,7 @@ include("layout/nav.php");
             </div><!--card-block-->
         </div><!--card-->
         <div class="card ">
-            <img class="card-img-top book-shadow book-size" src="../public/images/books/000023.jpg" alt="Card image cap">
+            <img class="card-img-top book-shadow book-size" src="../public/images/books/anava.jpg" alt="Анава-йога">
             <div class="card-block">
                 <p class="card-text" ><small></small></p>
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Анава-йога"
@@ -133,7 +131,7 @@ include("layout/nav.php");
             </div><!--card-block-->
         </div><!--card-->
         <div class="card ">
-            <img class="card-img-top book-shadow book-size" src="../public/images/books/000024.jpg" alt="Card image cap">
+            <img class="card-img-top book-shadow book-size" src="../public/images/books/istinaVne.jpg" alt="Истина вне ума">
             <div class="card-block">
                 <p class="card-text" ><small></small></p>
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Истина вне ума"
@@ -148,13 +146,13 @@ include("layout/nav.php");
             </div><!--card-block-->
         </div><!--card-->
     </div><!--card-deck-->
-    </div><!-- /.container -->
+    </div><!-- /.container row1-->
 
 
-    <div class="  container py-3 bg-faded">
+    <div class="  container py-3 bg-faded"><!--row2-->
         <div class="card-deck">
             <div class="card ">
-                <img class="card-img-top book-shadow book-size"  src="../public/images/books/000027.jpg" alt="Card image cap">
+                <img class="card-img-top book-shadow book-size" src="../public/images/books/fenomenGuruYogi.jpg" alt="Феномен Гуру-йоги">
                 <div class="card-block">
                     <p class="card-text" ><small></small></p>
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Феномен Гуру-йоги"
@@ -166,7 +164,7 @@ include("layout/nav.php");
                 </div><!--card-block-->
             </div><!--card-->
             <div class="card ">
-                <img class="card-img-top book-shadow book-size" src="../public/images/books/8950.jpg" alt="Card image cap">
+                <img class="card-img-top book-shadow book-size" src="../public/images/books/dattaUchitel.jpg" alt="Даттатрейя как Учитель человечества">
                 <div class="card-block">
                     <p class="card-text" ><small></small></p>
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Даттатрейя как Учитель человечества"
@@ -180,7 +178,7 @@ include("layout/nav.php");
                 </div><!--card-block-->
             </div><!--card-->
             <div class="card ">
-                <img class="card-img-top book-shadow book-size" src="../public/images/books/9376.jpg" alt="Card image cap">
+                <img class="card-img-top book-shadow book-size" src="../public/images/books/siddhaBrahmananda.jpg" alt="Книга о великом сиддха-йогине Свами Брахмананде">
                 <div class="card-block">
                     <p class="card-text" ><small></small></p>
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Книга о великом сиддха-йогине Свами Брахмананде"
@@ -194,33 +192,111 @@ include("layout/nav.php");
                 </div><!--card-block-->
             </div><!--card-->
             <div class="card ">
-                <img class="card-img-top book-shadow book-size" src="../public/images/books/defaultBook.png" alt="Card image cap">
+                <img class="card-img-top book-shadow book-size" src="../public/images/books/avadhutaGita.jpeg" alt="Авадхута Гита">
                 <div class="card-block">
                     <p class="card-text" ><small></small></p>
-                    <button type="button" class="btn btn-link" data-toggle="popover" title=""
+                    <button type="button" class="btn btn-link" data-toggle="popover" title="Авадхута Гита"
                             data-content="">
-
+                        Подробнее...
                     </button>
                 </div><!--card-block-->
             </div><!--card-->
             <div class="card ">
-                <img class="card-img-top book-shadow book-size" src="../public/images/books/defaultBook.png" alt="Card image cap">
-                <div class=" card-body ">
+                <img class="card-img-top book-shadow book-size" src="../public/images/books/chistoeVidenie.jpeg" alt="Чистое видение">
+                <div class="card-block">
+                    <p class="card-text" ><small></small></p>
+                    <button type="button" class="btn btn-link" data-toggle="popover" title="Чистое видение"
+                            data-content="Чистое видение или мир мандалы означает реальность, которая полностью управляется сознанием.
+                             В этой реальности человек находится в ее центре. Он задает ее параметры, законы, константы, управляет причинами,
+                             следствиями, прошлым, будущим и любыми аспектами этой реальности. Когда йогин реализовывает такое состояние, говорят,
+                              что он полностью перешел в мир чистого видения. Обычно это даже на физическом уровне выглядит как достижение высшей
+                               стадии йоги  – превращение собственного физического тела в радужное тело, состоящее из света.">
+                        Подробнее...
+                    </button>
+                </div><!--/.card-block-->
+            </div><!--/.card-->
+        </div><!--/.card-deck-->
+    </div><!-- /.container row2 -->
 
-                    <p class="card-text"><small>
+    <div class="  container py-3 bg-faded"><!--row3-->
+            <div class="card-deck">
+                <div class="card ">
+                    <img class="card-img-top book-shadow book-size" src="../public/images/books/karmaYoga.jpeg" alt="Карма-Йога">
+                    <div class="card-block">
+                        <p class="card-text" ><small></small></p>
+                        <button type="button" class="btn btn-link" data-toggle="popover" title="Карма-Йога"
+                                data-content="Кармы – это движение энергии, это развертывание энергии. Когда энергия развертывается, то она развертывается
+                                 в пространстве и времени. Видоизменение энергии во времени называется паринама, то есть когда одно переходит в другое.
+                                  Состояние кармы – это такой вид паринамы, когда причина переходит в следствие, одна причина постоянно переходит в другое следствие.
+                                   Есть скрытая сила, которая проявляет из причины следствие. Например, причина – яйцо, следствие – цыпленок.
+                                    Причина – курица, следствие – яйцо. Причина – работа повара на кухне, следствие – все монахи утром сыты.
+                                     Причина – учитель дает передачу, следствие – ученик получает опыт. ">
+                            Подробнее...
+                        </button>
+                    </div><!--card-block-->
+                </div><!--card-->
+                <div class="card ">
+                    <img class="card-img-top book-shadow book-size" src="../public/images/books/sushnostnyeNastavlenia.jpeg" alt="Сущностные наставления по практике Лайя-Йоги">
+                    <div class="card-block">
+                        <p class="card-text" ><small></small></p>
+                        <button type="button" class="btn btn-link" data-toggle="popover" title="Сущностные наставления по практике Лайя-Йоги"
+                                data-content="">
+                            Подробнее...
+                        </button>
+                    </div><!--card-block-->
+                </div><!--card-->
+                <div class="card ">
+                    <img class="card-img-top book-shadow book-size" src="../public/images/books/sviashennyeTeksty.jpeg" alt="Шри Авадхута Даттатрея. Священные тексты">
+                    <div class="card-block">
+                        <p class="card-text" ><small></small></p>
+                        <button type="button" class="btn btn-link" data-toggle="popover" title="Шри Авадхута Даттатрея. Священные тексты"
+                                data-content="">
+                            Подробнее...
+                        </button>
+                    </div><!--card-block-->
+                </div><!--card-->
+                <div class="card ">
+                    <img class="card-img-top book-shadow book-size" src="../public/images/books/defaultBook.png" alt="Card image cap">
+                    <div class="card-block">
+                        <p class="card-text" ><small></small></p>
+                        <button type="button" class="btn btn-link" data-toggle="popover" title=""
+                                data-content="">
+                            <!--Подробнее...-->
+                        </button>
+                    </div><!--card-block-->
+                </div><!--card-->
+                <div class="card ">
+                    <img class="card-img-top book-shadow book-size" src="../public/images/books/defaultBook.png" alt="Card image cap">
+                    <div class="card-block">
+                        <p class="card-text" ><small></small></p>
+                        <button type="button" class="btn btn-link" data-toggle="popover" title=""
+                                data-content="">
+                            <!--Подробнее...-->
+                        </button>
+                    </div><!--card-block-->
+                </div><!--card-->
+            </div><!--card-deck-->
+    </div><!-- /.container row3-->
 
-                        </small></p>
-                </div><!--card-block-->
-            </div><!--card-->
-        </div><!--card-deck-->
-    </div><!-- /.container -->
+
 
 
 </div>
 
+<!--Template for book row of 5item-->
 
-
-
+<!--<div class="card-deck"><!--row3
+    <div class="card ">
+        <img class="card-img-top book-shadow book-size" src="../public/images/books/avadhutaGita.jpeg" alt="Card image cap">
+        <div class="card-block">
+            <p class="card-text" ><small></small></p>
+            <button type="button" class="btn btn-link" data-toggle="popover" title="Авадхута Гита"
+                    data-content="">
+                Подробнее...
+            </button>
+        </div><!--card-block
+    </div><!--card
+</div><!--card-deck-->
 
 
 <!-- #footer -->
