@@ -28,7 +28,10 @@
     <link href="../public/css/mystyles.css" rel="stylesheet">
     <link href="../js/carousel.js" rel="stylesheet">
     <link href="../js/navbar.js" rel="stylesheet">
+
+
 </head>
+
 
 <body >
 

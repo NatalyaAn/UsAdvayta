@@ -17,12 +17,12 @@
 
     <title>Книги/Галлерея-usa.advayta.org</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS
 
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../vendor/bootstrap/js/bootstrap.min.js" rel="script">
     <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+    -->
     <!-- Custom styles for this template-->
 
     <link href="../public/css/mystyles.css" rel="stylesheet">

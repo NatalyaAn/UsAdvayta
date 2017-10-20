@@ -82,7 +82,6 @@ include("layout/nav.php");
 
 
 
-
 <!-- Bootstrap core JavaScript !!!important order of striptes -->
 <script src="../vendor/jquery/jquery.min.js"></script>
 <script src="../vendor/popper/popper.min.js"></script>
