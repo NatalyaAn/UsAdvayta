@@ -13,3 +13,30 @@
 
 Полезные линки:
 1. Генератор тени, градиента, шума, закругление угла  http://www.cssmatic.com/box-shadow
+
+git commands:
+git clone https://github.com/NatalyaAn/UsAdvayta.git
+
+ git status
+
+git branch
+git branch -r
+git branch -a
+
+ git add file1 file2 file3  - add files 1,2,3
+ git add *  - all files
+
+ git commit -m "Initial commit"
+
+ git pull origin master
+git push origin master
+ git checkout master - войти в master
+   git reset --hard origin/master - все локал файлы заменить мастером с github
+
+ cd d:
+ cd Users/Nata/IdeaProjects/UsAdvayta/
+ ls - list structure current directory
+ ls -al  - show all files
+ ls -l    : the same as ll
+ ll
+ pwd  : show directory
