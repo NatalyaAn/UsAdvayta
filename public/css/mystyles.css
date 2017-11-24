@@ -87,8 +87,11 @@ body {
 }
 
 .newsbox-size {
-    width: 100px;
+    width: 10px;
+
 }
+
+
 /*End News*/
 
 
@@ -121,7 +124,8 @@ body {
 }
 .book-size {
     height: 260px;
-    width: 150px;
+
+
  }
 /*End SHADOW for cards*/
 

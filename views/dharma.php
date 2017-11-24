@@ -17,16 +17,20 @@
 
     <title>Учение-usa.advayta.org</title>
 
-    <!-- Bootstrap core CSS -->
-
+    <!-- Bootstrap core CSS
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../vendor/bootstrap/js/bootstrap.min.js" rel="script">
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
+
+    <!-- Bootstrap 4 alpha CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-
     <link href="../public/css/mystyles.css" rel="stylesheet">
     <link href="../js/carousel.js" rel="stylesheet">
+    <link href="../js/navbar.js" rel="stylesheet">
 
     <style>
         body{
@@ -36,8 +40,8 @@
             display: block;
             margin: 50px auto;
             height: 150px;
-            border: 2px solid lime;
-            animation: ddd 15s linear infinite;
+            /*border: 2px solid lime;*/
+            animation: ddd 25s linear infinite;
         }
         @keyframes  ddd {
             0%{transform: rotateY(0deg);}
@@ -61,59 +65,52 @@ include("layout/nav.php");
 
 
 <div class="  container ">
-    <img class="img-catoon" src="../public/images/Datta.png" >
+    <h2 class="my-4 text-center">Три драгоценности</h2>
+    <img class="img-catoon" src="../public/images/om3.jpg" >
 
-    <h4 class="my-4 text-center">Три драгоценности</h4>
+
 
     <!-- row of 3 cards -->
-    <div class="row">
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100 card-shadow ">
-                <h4 class="card-header text-center ">Дхарма</h4>
-                <a href="#"><img class="card-img-top " src="../public/images/om.jpg" alt=""></a>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 
-                </div>
-                <div class="card-footer">
-                    <a href="https://youtu.be/N6ENnaRotmo" class="card-link">Details...</a>
-                </div>
+    <div class="card-deck">
+        <div class="card card-shadow">
+            <h4 class="card-header text-center ">Дхарма</h4>
+            <img class="card-img-top" src="../public/images/datta1.jpg" style="width: 100%" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Учение</h4>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100 card-shadow">
-                <h4 class="card-header text-center ">Гуру</h4>
-                <a href="#"><img class="card-img-top hm-zoom"  src="../public/images/Datta.png" alt=""></a>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="card-link">Details...</a>
-                </div>
+        <div class="card card-shadow">
+            <h4 class="card-header text-center ">Гуру</h4>
+            <img class="card-img-top" src="../public/images/guru2.jpg" style="width: 100%" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Учитель</h4>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100 card-shadow">
-                <h4 class="card-header text-center ">Сангха</h4>
-                <a href="#"><img class="card-img-top" src="../public/images/brand.png" alt=""></a>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-
-                </div>
-                <div class="card-footer">
-                    <a href="#" class=" card-link">Learn More</a>
-                </div>
+        <div class="card card-shadow">
+            <h4 class="card-header text-center ">Сангха</h4>
+            <img class="card-img-top" src="../public/images/sangha1.jpg" style="width: 100%" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Община</h4>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
-    </div><!-- /.row -->
+    </div>
+
+
+
 
 </div><!-- /.container -->
 
-<div class="jumbotron jumbotron-fluid jumbotron-background">
+<!--<div class="jumbotron jumbotron-fluid jumbotron-background">-->
 
 </div>
-<!-- Carousel -->
+<!-- Carousel
 <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner row w-100 mx-auto" role="listbox">
@@ -151,22 +148,25 @@ include("layout/nav.php");
             <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
+</div>-->
 <!-- /.carousel -->
 
 
 
-<!-- #footer -->
-<?php
-include("layout/footer.php");
-?>
+<!-- #footer-->
 
 
-<!-- Bootstrap core JavaScript !!!important order of striptes -->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/popper/popper.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
+<!-- jQuery first, then Tether, then Bootstrap JS. with bootstrap 4 alpha -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
 
 
 
