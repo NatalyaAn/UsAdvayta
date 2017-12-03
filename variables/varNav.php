@@ -11,7 +11,7 @@ $nav1 = '
         <div class="collapse navbar-collapse" id="navbarResponsive">
 
         <a class="navbar-brand mb-0">
-        <img src="../public/images/brand.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../public/images/omTrans.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
       </a>
           <ul class="navbar-nav  flex-column text-center " >
           <li ><a class="small text-info"  >Сайт последователей</a></li>
@@ -63,12 +63,12 @@ $nav = '
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-        <img src="../public/images/brand.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../public/images/omGold11.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
     </a>
 
     <ul class="navbar-nav  flex-row  ">
-        <li class="text-center"><a class="small ">Сайт последователей Санатана Дхармы</a></li>
-        <!--<li><a class="small "></a></li>-->
+        <li class=" text-center"><a class="small ">Сайт последователей Учения Санатана-Дхармы</a></li>
+        <li><a class=" text-center"> </a></li>
     </ul>
 
     <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
@@ -77,7 +77,7 @@ $nav = '
                 <a class="nav-link active" href="home.php""></i>Дхарма Центр NY-NJ<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="dharma.php"">Учение</a>
+                <a class="nav-link " href="dharma.php""></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -91,15 +91,14 @@ $nav = '
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacts.php">Contact</a>
+                <a class="nav-link" href="contacts.php">Контакты</a>
             </li>
-            <li class="nav-item dropdown">
+     <!--       <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Blog
                 </a>
-
             </li>
-
+-->
 
         </ul>
     </div>

@@ -160,7 +160,7 @@ include("layout/news.php");
         <img class="card-img-top" style="width:100%;" src="../public/images/events/havan.jpg" alt="Card image cap">
         <div class="card-block">
             <h4 class="card-title">Хаван</h4>
-            <p class="card-text">Огненные ритуальные практики по призыванию Божественных сил, являются частью тантрической практики.</p>
+            <p class="card-text">Огненные ритуалы по призыванию Божественных сил, являются частью тантрической практики.</p>
 <!--            <a href="#" class="link"></a>-->
         </div>
     </div>
