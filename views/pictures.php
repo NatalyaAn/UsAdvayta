@@ -45,11 +45,11 @@ include("layout/nav.php");
 
 <div class=" py-3 bg-faded">
 
-    <header class="text-center"><h3 >Йога-слет</h3></header>
+    <header class="text-center"><h3 >Даттаджаянти 3 декабря 2017</h3></header>
 
     <div class="card-columns ">
         <div class="card " >
-            <img class="card-img-top img-fluid " src="../public/images/om.jpg" alt="Card image">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/IMG_1537.jpg" alt="Card image">
         </div>
         <div class="card " >
             <img class="card-img-top img-fluid" src="../public/images/om.jpg" alt="Card image">

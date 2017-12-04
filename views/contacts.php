@@ -57,7 +57,7 @@
             <div class="card-block ">
                 <small class="text">
                     <h4 class="card-title">Наши контакты в США:</h4>
-                    <h6 class="card-title">(732)309-5856 - Людмила</h6>
+                    <h6 class="card-title">(732)309-5256 - Людмила</h6>
                     <h6 class="card-title">(646)645-1544 Бадри</h6>
                     <h6 class="card-title"></h6>
 

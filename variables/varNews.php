@@ -23,7 +23,7 @@ $news = '
       <h6 class="card-title">Визит монаха Раманатха в США с 7-27 декабря 2017</h6>
       <p class="card-text"></p>
       <footer>
-      <a href="http://usa.advayta.org/public/downloads/flyerRamanatha2017.php" class="card-link">Скачать файл</a>
+      <a href="http://usa.advayta.org/public/downloads/flyerRamanatha2017.php" class="card-link">Скачать флайер</a>
       </footer>
       </small>
     </div>
