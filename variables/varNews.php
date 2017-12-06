@@ -16,7 +16,7 @@ $news = '
   <div class="d-flex flex-sm-row justify-content-center " >
 
 
-   <div class="card p-2 card-shadow "style="width: 40rem;">
+   <div class="card p-2 card-shadow "style="width: 30rem;">
      <img class="card-img-top img-thumbnail "  src="../public/images/ramanatha1.jpg" alt="Card image cap" align="left">
     <div class="card-block">
     <small class="text">
@@ -35,7 +35,8 @@ $news = '
       <h6 class="card-title">Семинар «Управления внутренней энергией в традиции йоги сиддхов» </h6>
 
 <p class="card-text">Занятия состоят из чередующихся теоретических знаний и усвоения через практику. Практикум по крийя-кундалини-йоге. Балансировка негармоничной и болезненной энергии.</p>
-<p class="card-text font-weight-bold">Место проведения: Brooklyn, 365 avenue U, 2-nd floor.</p>
+<p class="card-text font-weight-bold">Время: с 2-6 pm (суббота, воскресенье)</p>
+<p class="card-text font-weight-bold">Место: Brooklyn, 365 avenue U, 2-nd floor.</p>
       <footer>
       <a href="#" class="card-link"></a>
       </footer>
@@ -49,7 +50,7 @@ $news = '
       <h6 class="card-title">Обучающий тренинг «Искусство медитации»</h6>
   <p class="card-text">
       В программе:</p>
-<p class="card-text">положения тела при медитации сидя и в ходьбе,
+<p class="card-text">Положения тела при медитации сидя и в ходьбе,
  положение глаз в медитации,
  ключевые точки в медитации,
  как подобрать объект для практики,
@@ -58,6 +59,7 @@ $news = '
  как разобраться с целью медитативной практики,
  как устранить препятствия,
  как остановить ум.</p>
+ <p class="card-text font-weight-bold">Время: с 7-9 pm (пятница)</p>
 <p class="card-text font-weight-bold">Место проведения: Brooklyn, 365 avenue U, 2-nd floor.</p>
 
       <footer>
@@ -93,6 +95,8 @@ $news = '
       <p class="card-text">
       Беседа о карме и путях выхода из нее. Предельно простыми словами лекция для тех, кто хочет прояснить для себя базовые жизненные вопросы:
  причина и следствия, смысл жизни, йога, Дхарма, духовный Учитель, реинкарнация.</p>
+
+ <p class="card-text font-weight-bold">Время: с 5-7:30 pm (четверг)</p>
 <p class="card-text font-weight-bold">Место проведения: Brooklyn, 365 avenue U, 2-nd floor.</p>
       <footer>
       <a href="#" class="card-link"></a>
