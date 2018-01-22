@@ -55,7 +55,7 @@
                     Галлерея
                 </a>
                 <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="pictures.php">Фото</a>
+                    <a class="dropdown-item" href="picturesDattajanti.php">Фото</a>
                     <a class="dropdown-item" href="video.php">Видео</a>
                     <a class="dropdown-item" href="books.php">Книги</a>
                 </div>

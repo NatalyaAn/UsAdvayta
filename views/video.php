@@ -1,22 +1,6 @@
 <html>
 <head>
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script>
-        $(function() {
-            $(".video").click(function () {
-                var theModal = $(this).data("target"),
-                    videoSRC = $(this).attr("data-video"),
-                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-                $(theModal + ' iframe').attr('src', videoSRCauto);
-                $(theModal + ' button.close').click(function () {
-                    $(theModal + ' iframe').attr('src', videoSRC);
-                });
-            });
-        });
-    </script>
--->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -29,12 +13,13 @@
     <link rel="manifest" href="../favicons/manifest.json">
     <meta name="theme-color" content="#bdb95e">
 
-    <title>Видео/Галлерея-usa.advayta.org</title>
+    <title>Главная-usa.advayta.org</title>
 
     <!-- Bootstrap core CSS
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../vendor/bootstrap/js/bootstrap.min.js" rel="script">
-    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    -->
 
     <!-- Bootstrap 4 alpha CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -42,11 +27,9 @@
     <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-
     <link href="../public/css/mystyles.css" rel="stylesheet">
-    <link href="../js/carousel.js" rel="stylesheet">
+    <!--    <link href="../js/carousel.js" rel="stylesheet">-->
     <link href="../js/navbar.js" rel="stylesheet">
-
 
 
 </head>

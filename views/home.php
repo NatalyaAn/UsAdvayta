@@ -30,7 +30,7 @@
 
     <!-- Custom styles for this template-->
     <link href="../public/css/mystyles.css" rel="stylesheet">
-    <link href="../js/carousel.js" rel="stylesheet">
+<!--    <link href="../js/carousel.js" rel="stylesheet">-->
     <link href="../js/navbar.js" rel="stylesheet">
 
 
@@ -133,7 +133,7 @@ include("layout/news.php");
         <img class="card-img-top" style="width:100%;" src="../public/images/homePage/practice.jpg" alt="Card image cap">
         <div class="card-block">
             <h4 class="card-title">Регулярные практики в ДЦ</h4>
-            <p class="card-text">Раз в месяц проходят общие йога-занятия в Бруклине для поддержания физической и духовной связи с Учением, Учителем и Сангхой.
+            <p class="card-text">Раз в месяц проходят общие йога-занятия в Бруклине для поддержания физической формы и духовной связи с Учением, Учителем и Сангхой.
                 Занятие включает хатха-йогу, утреннюю сутру, медитационную сессию. Продолжительность занятия 2,5ч. </p>
             <a href="#" class="link"></a>
         </div>
@@ -199,15 +199,15 @@ include("layout/news.php");
 
 
 
-    <!-- Card 8
+    <!-- Card 8-->
     <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/events/lectures.jpeg" alt="Card image cap">
+        <img class="card-img-top" style="width:100%;" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
         <div class="card-block">
-            <h4 class="card-title">Лекции</h4>
+            <h4 class="card-title">Праздники</h4>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-primary"></a>
+            <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
         </div>
-    </div>-->
+    </div>
 
 
 </div>
@@ -221,6 +221,11 @@ include("layout/news.php");
 
 
     <!-- Carousel -->
+
+
+
+
+
 <!--    <div class="container-fluid">-->
 <!--        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="false">-->
 <!--            <div class="carousel-inner row w-100 mx-auto" role="listbox">-->

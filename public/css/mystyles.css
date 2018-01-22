@@ -104,7 +104,9 @@ body {
 
  .jumbotron-background {
 
-    background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') center center no-repeat;
+    /*background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') ;*/
+     /*background: url("../images/ggg1.jpg") center center no-repeat;*/
+
     background-size: cover ;
      -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
@@ -202,6 +204,8 @@ body {
     }
 }
 /* /.Carousel */
+
+
 
 
 /* Column-count in Pictures*/

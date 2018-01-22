@@ -84,7 +84,7 @@ include("layout/nav.php");
         </div>
         <div class="card card-shadow">
             <h4 class="card-header text-center ">Гуру</h4>
-            <img class="card-img-top" src="../public/images/guru2.jpg" style="width: 100%" alt="Card image cap">
+            <img class="card-img-top" src="../public/images/Guru.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Учитель</h4>
                 <p class="card-text"></p>

@@ -19,7 +19,7 @@ $nav1 = '
           </ul>
             <ul class="navbar-nav ml-auto flex-row">
             <li class="nav-item ">
-                    <a class="nav-link active" href="home.php""><i style="" class="fa">&#xf015;</i>Дхарма Центр NY-NJ<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="home.php""><i style="" class="fa">&#xf015;</i>ДЦ "Джняна Марга" NY-NJ<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="dharma.php"">Учение</a>
@@ -30,7 +30,7 @@ $nav1 = '
                         Галлерея
                     </a>
                     <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                        <a class="dropdown-item" href="pictures.php">Фото</a>
+                        <a class="dropdown-item" href="picturesDattajanti.php">Фото</a>
                         <a class="dropdown-item" href="video.php">Видео</a>
                         <a class="dropdown-item" href="books.php">Книги</a>
                     </div>
@@ -62,9 +62,9 @@ $nav = '
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">
+    <!--<a class="navbar-brand" href="#">
         <img src="../public/images/omGold11.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-    </a>
+    </a> -->
 
     <ul class="navbar-nav  flex-row  ">
         <li class=" text-center"><a class="small ">Сайт последователей Учения Санатана-Дхармы</a></li>
@@ -74,7 +74,7 @@ $nav = '
     <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active" href="home.php""></i>Дхарма Центр NY-NJ<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="home.php""></i>ДЦ "Джняна Марга" NY-NJ<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="dharma.php""></a>
@@ -82,13 +82,19 @@ $nav = '
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Галлерея
+                    Фото
                 </a>
                 <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="pictures.php">Фото</a>
-                    <a class="dropdown-item" href="video.php">Видео</a>
-                    <a class="dropdown-item" href="books.php">Книги</a>
+                    <a class="dropdown-item" href="picturesDattajanti.php">Даттаджаянти 3дек 2017</a>
+
                 </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="video.php"">Видео</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="books.php"">Книги</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contacts.php">Контакты</a>
