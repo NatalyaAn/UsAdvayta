@@ -68,14 +68,18 @@
                         <div class="w-100"></div>
                         <div class="col-3"> 02/08/2018</div>
                         <div class="col-6">Пранаяма </div>
-                        <div class="col-3"></div>
+                        <div class="col-3">Василий</div>
                         <div class="w-100"></div>
                         <div class="col-3"> </div>
                         <div class="col-6">Гуру-йога</div>
                         <div class="col-3">Наталья</div>
                         <div class="w-100"></div>
                         <div class="col-3"> </div>
-                        <div class="col-6">Самадхи</div>
+                        <div class="col-6">Гармоничные отношения в несамайной семье</div>
+                        <div class="col-3">Василий</div>
+                        <div class="w-100"></div>
+                        <div class="col-3"> </div>
+                        <div class="col-6"></div>
                         <div class="col-3"></div>
                         <div class="w-100"></div>
                         <div class="col-3"> </div>
@@ -83,7 +87,7 @@
                         <div class="col-3"></div>
                         <div class="w-100"></div>
                         <div class="col-3"> </div>
-                        <div class="col-6">Гармоничные отношения в несамайной семье</div>
+                        <div class="col-6"></div>
                         <div class="col-3"></div>
                     </div>
 

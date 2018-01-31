@@ -36,8 +36,8 @@ $news = '
 
 
 <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
-<p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца</p>
-
+<p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца.</p>
+<p class="card-text">Следующее занятие 8 февраля.</p>
       <footer>
       <a href="skype.php" class="card-link">Темы и расписание занятий</a>
       </footer>
@@ -45,7 +45,21 @@ $news = '
   </div>
   </div><!-- /.card -->
 
+ <div class="card p-2 card-shadow">
+    <div class="card-block">
+    <small class="text">
+      <h4 class="card-title">Ежемесячное занятие </h4>
 
+
+<p class="card-text">Очередная встреча дхарма центра Джняна Марга пройдет </p>
+<p class="card-text font-weight-bold">в субботу 3 февраля в 1ч дня в студии Бадри</p>
+<p class="card-text"></p>
+      <footer>
+      <a href="skype.php" class="card-link"></a>
+      </footer>
+    </small>
+  </div>
+  </div><!-- /.card -->
 
 
 

@@ -2,56 +2,65 @@
 $nav1 = '
 
 <!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light  " style="" >
-    <div class="container-fluid">
+<nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-info">
 
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<a class="navbar-brand" href="#">
+        <img src="../public/images/omGold11.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    </a> -->
 
-        <a class="navbar-brand mb-0">
-        <img src="../public/images/omTrans.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-      </a>
-          <ul class="navbar-nav  flex-column text-center " >
-          <li ><a class="small text-info"  >Сайт последователей</a></li>
-          <li><a class="small text-info" >Санатана Дхармы в США</a></li>
-          </ul>
-            <ul class="navbar-nav ml-auto flex-row">
+
+
+<div class="row">
+<div class="clearfix"></div>
+           <div class="collapse navbar-collapse" id="mainNav">
+                <ul id="navlist" class="nav nav-cla">
+                  <li class=" text-center"><a class="small ">Сайт последователей Санатана Дхармы</a></li>
+        <li class=" text-center"><a class="small "></a></li>
+                </ul>
+           </div>
+
+</div>
+
+    <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
+        <ul class="navbar-nav ">
             <li class="nav-item ">
-                    <a class="nav-link active" href="home.php""><i style="" class="fa">&#xf015;</i>ДЦ "Джняна Марга" NY-NJ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="dharma.php"">Учение</a>
-                </li>
+                <a class="nav-link active" href="home.php""></i>ДЦ "Джняна Марга" NY-NJ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="dharma.php""></a>
+            </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Галлерея
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                        <a class="dropdown-item" href="picturesDattajanti.php">Фото</a>
-                        <a class="dropdown-item" href="video.php">Видео</a>
-                        <a class="dropdown-item" href="books.php">Книги</a>
-                    </div>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacts.php">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Blog
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown2">
-                        <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                        <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                        <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-                    </div>
-                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Фото
+                </a>
+                <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
+                    <a class="dropdown-item" href="picturesDattajanti.php">Даттаджаянти 3дек 2017</a>
 
-            </ul>
-        </div><!-- /.collapse -->
-    </div><!-- /.container -->
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="video.php"">Видео</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="books.php"">Книги</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacts.php">Контакты</a>
+            </li>
+     <!--       <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog
+                </a>
+            </li>
+-->
+
+        </ul>
+    </div>
 </nav>
 <!-- /.navbar -->
     ';
@@ -66,10 +75,16 @@ $nav = '
         <img src="../public/images/omGold11.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
     </a> -->
 
-    <ul class="navbar-nav  flex-row  ">
-        <li class=" text-center"><a class="small ">Сайт последователей Учения Санатана-Дхармы</a></li>
-        <li><a class=" text-center"> </a></li>
-    </ul>
+   <div class="row">
+<div class="clearfix"></div>
+           <div class="collapse navbar-collapse" id="mainNav">
+                <ul id="navlist" class="nav nav-cla">
+                  <li class=" text-center"><a class="small ">Сайт последователей Санатана Дхармы</a></li>
+        <li class=" text-center"><a class="small "></a></li>
+                </ul>
+           </div>
+
+</div>
 
     <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
         <ul class="navbar-nav ">

@@ -48,10 +48,10 @@ include("layout/nav.php");
 
 
 <header>
-    <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">
-        <h2 class="text-center">Йога в традиции сиддхов </h2>
-        <p class="lead text-center">...Website under constraction...</p>
-    </div>
+<!--    <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">-->
+<!--        <h2 class="text-center">Йога в традиции сиддхов </h2>-->
+<!--        <p class="lead text-center">...Website under constraction...</p>-->
+<!--    </div>-->
 
 </header>
 <!-- #news-->
@@ -98,8 +98,9 @@ include("layout/news.php");
 
 <!----><!----><!----><!---->
 
-<div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">
-    <h2 class="text-center">Мероприятия</h2>
+<div class="jumbotron jumbotron-fluid jumbotron-background card-shadow ">
+    <h2 class="text-center">Йога в традиции сиддхов</h2>
+    <p class="lead text-center">...Website under constraction...</p>
     <p class="lead text-center"></p>
 </div>
 
