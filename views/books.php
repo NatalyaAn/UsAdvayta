@@ -41,7 +41,7 @@
 
 
 </head>
-<body >
+<body  >
 
 <!-- Navbar -->
 
@@ -51,12 +51,12 @@ include("layout/nav.php");
 
 
 
-<div class=" py-3 bg-faded">
+<div class=" py-3 bg-faded" >
 
     <header class="text-center"><h3 >Книги</h3></header>
 
 
-    <div class="  container py-3 bg-faded"><!--row1-->
+    <div class="  container py-3  "   ><!--row1-->
     <div class="card-deck">
         <div class="card ">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/layaAmrita.jpg" alt="Освобождающий нектар драгоценных наставлений. Лайя Амрита Упадеша Чинтамани">

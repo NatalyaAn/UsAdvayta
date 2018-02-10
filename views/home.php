@@ -99,10 +99,20 @@ include("layout/news.php");
 <!----><!----><!----><!---->
 
 <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow ">
+
     <h2 class="text-center">Йога в традиции сиддхов</h2>
-    <p class="lead text-center">...Website under constraction...</p>
+    <p class="lead text-center">...Website under construction...</p>
     <p class="lead text-center"></p>
+
+
 </div>
+
+<div class="jumbotron ">
+    <div class="row">
+<!--    <img src="../public/images/yoga.png" style="width: 10px height: 10px" class="card-img-top img-thumbnail rounded float-left" alt="...">-->
+<!--    <img src="../public/images/ggg.jpg" class="card-img-top img-thumbnail rounded float-left" alt="...">-->
+<!--    <img src="../public/images/ggg.jpg" class="rounded float-right" alt="...">-->
+</div></div>
 
 <div class="card-columns " style="column-count: 4">
 

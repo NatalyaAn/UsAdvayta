@@ -1,7 +1,7 @@
 <?php
 $news = '
 
- <div class="jumbotron jumbotron-fluid jumbotron-padding bg-secondary text-black">
+ <div class="jumbotron jumbotron-fluid jumbotron-padding bgc text-black">
 
 
 <p >
@@ -45,7 +45,7 @@ $news = '
   </div>
   </div><!-- /.card -->
 
- <div class="card p-2 card-shadow">
+ <!--<div class="card p-2 card-shadow">
     <div class="card-block">
     <small class="text">
       <h4 class="card-title">Ежемесячное занятие </h4>
@@ -59,7 +59,7 @@ $news = '
       </footer>
     </small>
   </div>
-  </div><!-- /.card -->
+  </div> /.card -->
 
 
 

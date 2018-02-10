@@ -35,7 +35,7 @@
 <header>
     <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow">
         <h2 class="text-center"> </h2>
-        <p class="lead text-center">...Website under constraction...</p>
+        <p class="lead text-center">...Website under construction...</p>
     </div>
 
 </header>
@@ -53,7 +53,7 @@
     <div class="d-flex flex-sm-row justify-content-center " >
 
 
-        <div class="card p-2 card-shadow">
+        <div class="card p-2 card-shadow color-primary-14">
             <div class="card-block ">
                 <small class="text">
                     <h4 class="card-title">Наши контакты в США:</h4>

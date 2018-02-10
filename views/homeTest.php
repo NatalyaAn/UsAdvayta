@@ -98,6 +98,108 @@
     </div>
 
 
+<div class="container-fluid">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-12 col-md-9">
+            <p class="float-right hidden-md-up">
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+            </p>
+            <div class="jumbotron">
+                <h1>Hello, world!</h1>
+                <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+            </div>
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+            </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">News</a>
+                <div class="card p-2 card-shadow">
+                    <div class="card-block">
+                        <small class="text">
+                            <h4 class="card-title">Skype-занятия</h4>
+
+
+                            <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
+                            <p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца.</p>
+                            <p class="card-text">Следующее занятие 8 февраля.</p>
+                            <footer>
+                                <a href="skype.php" class="card-link">Темы и расписание занятий</a>
+                            </footer>
+                        </small>
+                    </div>
+                </div><!-- /.card --><!--/span-->
+                <div class="card p-2 card-shadow">
+                    <div class="card-block">
+                        <small class="text">
+                            <h4 class="card-title">Skype-занятия</h4>
+
+
+                            <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
+                            <p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца.</p>
+                            <p class="card-text">Следующее занятие 8 февраля.</p>
+                            <footer>
+                                <a href="skype.php" class="card-link">Темы и расписание занятий</a>
+                            </footer>
+                        </small>
+                    </div>
+                </div><!-- /.card --><!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi
+                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!--/span-->
+                <a href="#" class="list-group-item">Link</a>
+                <a href="#" class="list-group-item">Link</a>
+                <a href="#" class="list-group-item">Link</a>
+                <a href="#" class="list-group-item">Link</a>
+                <a href="#" class="list-group-item">Link</a>
+                <a href="#" class="list-group-item">Link</a>
+            </div>
+        </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+
+
+</div><!--/.container-->
+
+
+
 
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
