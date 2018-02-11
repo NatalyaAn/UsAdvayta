@@ -79,7 +79,7 @@ $nav = '
 <div class="clearfix"></div>
            <div class="collapse navbar-collapse" id="mainNav">
                 <ul id="navlist" class="nav nav-cla">
-                  <li class=" text-center"><a class="small ">Сайт последователей Санатана Дхармы</a></li>
+                  <li class=" text-center"><a class="small ">Сайт последователей Санатана Дхармы в США</a></li>
         <li class=" text-center"><a class="small "></a></li>
                 </ul>
            </div>
@@ -89,10 +89,13 @@ $nav = '
     <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active" href="home.php""></i>ДЦ "Джняна Марга" NY-NJ<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="home.php""></i>Welcome<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="dharma.php""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="jnanaMarga.php"">ДЦ "Джняна Марга" NY-NJ</a>
             </li>
 
             <li class="nav-item dropdown">

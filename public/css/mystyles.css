@@ -117,7 +117,7 @@ body {
 .newsbox-size {
     width: 10px;
 }
-.bgc {background-color: #E8DDCC;
+.bgc {background-color: #E8DDCC;.bg
 }
 
 
@@ -137,7 +137,7 @@ body {
  .jumbotron-background {
 
     /*background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') ;*/
-     background: url("../images/yoga1.png") center center no-repeat;
+     /*background: url("../images/datta1.jpg") center center no-repeat;*/
 
     background-size: cover ;
      -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;

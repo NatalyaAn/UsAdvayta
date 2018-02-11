@@ -1,7 +1,7 @@
 <?php
 $news = '
 
- <div class="jumbotron jumbotron-fluid jumbotron-padding bgc text-black">
+ <div class="jumbotron jumbotron-fluid jumbotron-padding bgc p-3 text-black">
 
 
 <p >
@@ -37,7 +37,7 @@ $news = '
 
 <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
 <p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца.</p>
-<p class="card-text">Следующее занятие 8 февраля.</p>
+<p class="card-text">Следующее занятие 22 февраля.</p>
       <footer>
       <a href="skype.php" class="card-link">Темы и расписание занятий</a>
       </footer>

@@ -37,7 +37,7 @@
 </head>
 
 
-<body >
+<body  class="bgc ">
 
 <!-- Navbar -->
 
@@ -54,10 +54,7 @@ include("layout/nav.php");
 <!--    </div>-->
 
 </header>
-<!-- #news-->
-<?php
-include("layout/news.php");
-?>
+
 
 
 <!--<div class="card-group">-->
@@ -98,7 +95,7 @@ include("layout/news.php");
 
 <!----><!----><!----><!---->
 
-<div class="jumbotron jumbotron-fluid jumbotron-background card-shadow ">
+<div class="jumbotron jumbotron-fluid jumbotron-background card-shadow " style="height: 0px">
 
     <h2 class="text-center">Йога в традиции сиддхов</h2>
     <p class="lead text-center">...Website under construction...</p>
@@ -106,122 +103,117 @@ include("layout/news.php");
 
 
 </div>
+<div class="jumbotron jumbotron-fluid bgc card-shadow " ">
 
-<div class="jumbotron ">
-    <div class="row">
-<!--    <img src="../public/images/yoga.png" style="width: 10px height: 10px" class="card-img-top img-thumbnail rounded float-left" alt="...">-->
-<!--    <img src="../public/images/ggg.jpg" class="card-img-top img-thumbnail rounded float-left" alt="...">-->
-<!--    <img src="../public/images/ggg.jpg" class="rounded float-right" alt="...">-->
-</div></div>
-
-<div class="card-columns " style="column-count: 4">
-
-    <!-- Card 1
-    <div class="card">
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/dattajayanti.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Даттаджаянти</h4>
-            <p class="card-text">3 декабря отметили</p>
-                       <a href="#" class="link"></a>
-        </div>
-    </div>-->
-
-    <!-- Card 1 -->
-    <div class="card">
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/seminar.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Семинары и лекции</h4>
-            <p class="card-text">Как минимум 2 раза в год имеем счастье участвовать в семинарах монаха Раманатха и Лакшиты. Теория, тесно связанная с практикой,
-             дает возможность для самостоятельной непрерывной работы в течение длительного времени. Методы по Учению, которые дает Раманатха, такие как выделение тонкого тела, Кундалини-йога,
-               полнота внимания и созерцание в движении, работа с чакрами, Атма-вичара,
-                как бусины дорогого ожерелья нанизываются на стремление ищущих к духовному росту и Пробуждению.</p>
-<!--            <a href="#" class="link"></a>-->
-        </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/practice.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Регулярные практики в ДЦ</h4>
-            <p class="card-text">Раз в месяц проходят общие йога-занятия в Бруклине для поддержания физической формы и духовной связи с Учением, Учителем и Сангхой.
-                Занятие включает хатха-йогу, утреннюю сутру, медитационную сессию. Продолжительность занятия 2,5ч. </p>
-            <a href="#" class="link"></a>
-        </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/slet.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Йога-слет</h4>
-            <p class="card-text">Йога-слет "Пробуждение" успешно прошел в июле 2017 в Woodstock, NY под кураторством монахов Раманатха и Лакшиты, а также инструкторов йоги Бадри и Майи. Ежедневные занятия по хатха-йоге,
-                Кундалини-йоге, медитативные сессии, психологические тренинги, вечерние лекции, теплая дружеская атмосфера и  концерт спиритуальной импровизационной музыки - все это сделало слет успешным и незабываемым для всех участников.
-            </p>
-<!--            <a href="#" class="link">фото отчет</a>-->
-        </div>
-    </div>
-
-
-    <!-- Card 4 -->
-    <div class="card">
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/hike.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Йога-туры выходного дня</h4>
-            <p class="card-text">Походы выходного дня любят все, особенно городской житель, прикованный к офисной работе и шумному городу. Но, когда физические нагрузки похода переплетаются с медитативной практикой, такой как
-            концентрация на пространстве, или наблюдении бесконечного небесного простота, или объединение со стихиями - понимаешь, что садхане нет конца, есть только ее углубление.</p>
-<!--            <a href="#" class="link"></a>-->
-        </div>
-
-
-    </div>
-
-    <!-- Card 5 -->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/havan.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Хаван</h4>
-            <p class="card-text">Огненные ритуалы по призыванию Божественных сил, являются частью тантрической практики.</p>
-<!--            <a href="#" class="link"></a>-->
-        </div>
-    </div>
-
-    <!-- Card 6 -->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/sedona1.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Поломничество</h4>
-            <p class="card-text">Поломничество - это путешествия по святым местам и местам силы, которые помогают сонастроиться с более высокими духовными энергиями, очиститься умом и телом, познакомиться с природой и культурой
-            другого региона. Недельная поездка по местам силы Седоны и Большого Каньона оставила незабываемые впечатления. В следующем году планируется йога-тур в район горы Шасты, Калифорния. </p>
-            <a href="video.php" class="link ">Видео отчет по Седоне</a>
-        </div>
-    </div>
-
-    <!-- Card 7 -->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/homePage/retreat.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Ритриты</h4>
-            <p class="card-text">Прохождение ритритов является кульминацией, итогом йогической практики и накопления залуг.
-                По предписанию Гуру, для начинающих обязательны 2-3 дневные ритриты ежемесячно и от 2-х недель ежегодно.</p>
-<!--            <a href="#" class="btn btn-primary">Подробнее о ритритной практике</a>-->
-        </div>
-    </div>
-
-
-
-    <!-- Card 8-->
-    <div class="card" >
-        <img class="card-img-top" style="width:100%;" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Праздники</h4>
-            <p class="card-text"></p>
-            <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
-        </div>
-    </div>
+    <h2 class="text-center"></h2>
+    <p class="lead text-center">...Website under construction...</p>
+    <p class="lead text-center"></p>
 
 
 </div>
+
+
+<div class="row  m-5 p-5 ">
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/seminar.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Семинары и лекции</h4>
+                <p class="card-text">Как минимум 2 раза в год имеем счастье участвовать в семинарах монаха Раманатха и Лакшиты. Теория, тесно связанная с практикой,
+                    дает возможность для самостоятельной непрерывной работы в течение длительного времени. Методы по Учению, которые дает Раманатха, такие как выделение тонкого тела, Кундалини-йога,
+                    полнота внимания и созерцание в движении, работа с чакрами, Атма-вичара,
+                    как бусины дорогого ожерелья нанизываются на стремление ищущих к духовному росту и Пробуждению.</p>
+                <!--            <a href="#" class="link"></a>-->
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/sedona.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Поломничество</h4>
+                <p class="card-text">Поломничество - это путешествия по святым местам и местам силы, которые помогают сонастроиться с более высокими духовными энергиями, очиститься умом и телом, познакомиться с природой и культурой
+                    другого региона. Недельная поездка по местам силы Седоны и Большого Каньона оставила незабываемые впечатления. В следующем году планируется йога-тур в район горы Шасты, Калифорния. </p>
+                <a href="video.php" class="link ">Видео отчет по Седоне</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-responsive " style="height:390px" src="../public/images/homePage/practice1.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Регулярные практики в ДЦ</h4>
+                <p class="card-text">Раз в месяц проходят общие йога-занятия в Бруклине для поддержания физической формы и духовной связи с Учением, Учителем и Сангхой.
+                    Занятие включает хатха-йогу, утреннюю сутру, медитационную сессию. Продолжительность занятия 2,5ч. </p>
+                <!--            <a href="#" class="link"></a>-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/slet.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Йога-слет</h4>
+                <p class="card-text">Йога-слет "Пробуждение" успешно прошел в июле 2017 в Woodstock, NY под кураторством монахов Раманатха и Лакшиты, а также инструкторов йоги Бадри и Майи. Ежедневные занятия по хатха-йоге,
+                    Кундалини-йоге, медитативные сессии, психологические тренинги, вечерние лекции, теплая дружеская атмосфера и  концерт спиритуальной импровизационной музыки - все это сделало слет успешным и незабываемым для всех участников.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row  m-5 p-5 ">
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Праздники</h4>
+                <p class="card-text"></p>
+                <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/hike.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Йога-туры выходного дня</h4>
+                <p class="card-text">Походы выходного дня любят все, особенно городской житель, прикованный к офисной работе и шумному городу. Но, когда физические нагрузки похода переплетаются с медитативной практикой, такой как
+                    концентрация на пространстве, или наблюдении бесконечного небесного простота, или объединение со стихиями - понимаешь, что садхане нет конца, есть только ее углубление.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/retreat.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Ритриты</h4>
+                <p class="card-text">Прохождение ритритов является кульминацией, итогом йогической практики и накопления залуг.
+                    По предписанию Гуру, для начинающих обязательны 2-3 дневные ритриты ежемесячно и от 2-х недель ежегодно.</p>
+                <!--            <a href="#" class="btn btn-primary">Подробнее о ритритной практике</a>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+        <div class="card bgc border-0">
+            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/havan.jpg" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title text-center">Хаван</h4>
+                <p class="card-text">Огненные ритуалы по призыванию Божественных сил, являются частью тантрической практики.</p>
+                <!--            <a href="#" class="link"></a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <!----><!----><!----><!---->
 

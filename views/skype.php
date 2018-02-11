@@ -48,44 +48,54 @@
     ?>
 
 
-
     <!-- #content-->
-    <div class="d-flex flex-sm-row justify-content-center " >
+    <div class=" container d-flex flex-sm-row justify-content-center " >
 
 
-        <div class="card p-2 card-shadow">
+        <div class="card p-2  card-shadow">
             <div class="card-block ">
-                <small class="text">
+                <small class="text-center">
                     <h4 class="card-title">Онлайн занятия в Skype</h4>
                     <h6 class="card-title">Изучение Учения в группе через слушание доклада по определенной теме, вопросы-ответы и обсуждения. </h6>
                     <h6 class="card-title">с 8-10 pm 2-ой и 4-ый четверг каждого месяца</h6>
                     <h6 class="card-title"></h6>
+            </div>
+
+
+            <div class="w-100"></div>
 
                     <div class="row ">
-                        <div class="col-3 font-weight-bold"> Дата</div>
+
+                        <div class="col-3 font-weight-bold "> Дата</div>
                         <div class="col-6 font-weight-bold">Тема</div>
-                        <div class="col-3 font-weight-bold">Докладчик</div>
-                        <div class="w-100"></div>
-                        <div class="col-3"> 02/08/2018</div>
-                        <div class="col-6">Пранаяма </div>
+                        <div class="col-3 font-weight-bold ">Докладчик</div>
+                        <div class="w-100 mt-2"></div>
+
+                        <div class="col-3 "> 02/22/2018</div>
+                        <div class="col-6">??</div>
                         <div class="col-3">Василий</div>
-                        <div class="w-100"></div>
+                        <div class="w-100 mt-2"></div>
+
                         <div class="col-3"> </div>
                         <div class="col-6">Гуру-йога</div>
                         <div class="col-3">Наталья</div>
-                        <div class="w-100"></div>
+                        <div class="w-100 mt-2"></div>
+
                         <div class="col-3"> </div>
                         <div class="col-6">Гармоничные отношения в несамайной семье</div>
                         <div class="col-3">Василий</div>
-                        <div class="w-100"></div>
+                        <div class="w-100 mt-2"></div>
+
                         <div class="col-3"> </div>
                         <div class="col-6"></div>
                         <div class="col-3"></div>
-                        <div class="w-100"></div>
+                        <div class="w-100 mt-2"></div>
+
                         <div class="col-3"> </div>
-                        <div class="col-6">Созерцательное присутствие</div>
+                        <div class="col-6">Созерцательное присутствие </div>
                         <div class="col-3"></div>
-                        <div class="w-100"></div>
+                        <div class="w-100 mt-2"></div>
+
                         <div class="col-3"> </div>
                         <div class="col-6"></div>
                         <div class="col-3"></div>
