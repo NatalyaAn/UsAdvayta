@@ -74,10 +74,10 @@ include("layout/nav.php");
 
     <!-- row of 3 cards -->
 
-    <div class="card-deck">
+    <div class="card-deck ">
         <div class="card card-shadow">
             <h4 class="card-header text-center ">Дхарма</h4>
-            <img class="card-img-top" src="../public/images/datta1.jpg" style="width: 100%" alt="Card image cap">
+            <img class="card-img-top " src="../public/images/datta1.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Учение</h4>
                 <p class="card-text"></p>

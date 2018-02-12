@@ -89,7 +89,7 @@ $nav = '
     <div class="collapse navbar-collapse  justify-content-md-end" id="navbarNav">
         <ul class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link active" href="home.php""></i>Welcome<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="home.php""></i>Главная<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="dharma.php""></a>

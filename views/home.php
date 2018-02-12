@@ -113,7 +113,7 @@ include("layout/nav.php");
 </div>
 
 
-<div class="row  m-5 p-5 ">
+<div class="row  m-5 p-5 bgc">
     <div class="col-sm-3">
         <div class="card bgc border-0">
             <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/seminar.jpg" alt="Card image cap">
@@ -166,7 +166,7 @@ include("layout/nav.php");
 
 
 
-<div class="row  m-5 p-5 ">
+<div class="row  m-5 p-5 bgc">
     <div class="col-sm-3">
         <div class="card bgc border-0">
             <img class="card-img-top img-fluid" style="height:390px" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
