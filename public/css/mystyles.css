@@ -3,8 +3,8 @@ body {
     /* background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
   background-color:lightsteelblue;*/
     padding-top: 54px;
-
-
+font-family: "Century Schoolbook";
+color: #76530A;
 }
 
 @media (min-width: 992px) {
@@ -39,7 +39,7 @@ body {
 /* http://paletton.com */
 
 /*NAVBAR*/
-.navbar{
+.navbar  {
     /*shadow*/
 
     -webkit-box-shadow: 8px 7px 19px -1px rgba(118,83,10,1);
@@ -47,6 +47,7 @@ body {
     box-shadow: 8px 7px 19px -1px rgba(118,83,10,1);
 
     /*gradient and color*/
+
 
     background: #c4ab8d;
     background: -moz-linear-gradient(top, #c4ab8d 0%, #e6dbcb 0%, #e4cd8c 78%, #b69771 100%);
@@ -60,6 +61,9 @@ body {
 #nav li {
     /*space between links in menu*/
     padding-right: 20px;
+    color: #76530A ;
+   font-weight: bold;
+
 }
 
 
@@ -72,7 +76,7 @@ body {
 
 
 .dropdown-content a {
-    color: black;
+    color:  #76530A ;
     background-color: #D3CAB9;
     padding: 5px 10px;
     text-decoration: none;
@@ -117,7 +121,7 @@ body {
 .newsbox-size {
     width: 10px;
 }
-.bgc {background-color: #E8DDCC;.bg
+.bgc {background-color: #E8DDCC;
 }
 
 
@@ -131,21 +135,60 @@ body {
     padding-right: 10px;
 
 }
+.jumbotronGoldBackcolor {
+    /*shadow*/
 
+    -webkit-box-shadow: 8px -7px 19px -1px rgba(118,83,10,1);
+    -moz-box-shadow: 8px -7px 19px -1px rgba(118,83,10,1);
+    box-shadow: 8px -7px 19px -1px rgba(118,83,10,1);
+
+    /*gradient and color*/
+    background: rgba(182,151,113,1);
+    background: -moz-linear-gradient(top, rgba(182,151,113,1) 0%, rgba(228,205,140,1) 22%, rgba(230,219,203,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(182,151,113,1)), color-stop(22%, rgba(228,205,140,1)), color-stop(100%, rgba(230,219,203,1)));
+    background: -webkit-linear-gradient(top, rgba(182,151,113,1) 0%, rgba(228,205,140,1) 22%, rgba(230,219,203,1) 100%);
+    background: -o-linear-gradient(top, rgba(182,151,113,1) 0%, rgba(228,205,140,1) 22%, rgba(230,219,203,1) 100%);
+    background: -ms-linear-gradient(top, rgba(182,151,113,1) 0%, rgba(228,205,140,1) 22%, rgba(230,219,203,1) 100%);
+    background: linear-gradient(to bottom, rgba(182,151,113,1) 0%, rgba(228,205,140,1) 22%, rgba(230,219,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b69771', endColorstr='#e6dbcb', GradientType=0 );
+
+    /*background: rgba(196,171,141,1);*/
+    /*background: -moz-linear-gradient(top, rgba(196,171,141,1) 0%, rgba(230,219,203,1) 16%, rgba(228,205,140,1) 78%, rgba(182,151,113,1) 100%);*/
+    /*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(196,171,141,1)), color-stop(16%, rgba(230,219,203,1)), color-stop(78%, rgba(228,205,140,1)), color-stop(100%, rgba(182,151,113,1)));*/
+    /*background: -webkit-linear-gradient(top, rgba(196,171,141,1) 0%, rgba(230,219,203,1) 16%, rgba(228,205,140,1) 78%, rgba(182,151,113,1) 100%);*/
+    /*background: -o-linear-gradient(top, rgba(196,171,141,1) 0%, rgba(230,219,203,1) 16%, rgba(228,205,140,1) 78%, rgba(182,151,113,1) 100%);*/
+    /*background: -ms-linear-gradient(top, rgba(196,171,141,1) 0%, rgba(230,219,203,1) 16%, rgba(228,205,140,1) 78%, rgba(182,151,113,1) 100%);*/
+    /*background: linear-gradient(to bottom, rgba(196,171,141,1) 0%, rgba(230,219,203,1) 16%, rgba(228,205,140,1) 78%, rgba(182,151,113,1) 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4ab8d', endColorstr='#b69771', GradientType=0 );*/
+}
 
 
  .jumbotron-background {
 
     /*background: url('http://www.bipnational.net/Portals/_default/Skins/Minimalist-BioBlue-Gradient/backgrounds/SkyBlue/11_image.jpg') ;*/
-     /*background: url("../images/datta1.jpg") center center no-repeat;*/
+     background: url("../images/tree2.jpg") center center no-repeat;
 
     background-size: cover ;
      -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
-
+     /*color: #FBFBFB;*/
+     color: #76530A ;
+     background-attachment: fixed;
+     min-height: 1000px;
+     margin-top: 10px;
+     margin-bottom: 0px;
 
 }
 /*End JUMBOTRON*/
 
+/*CARDS*/
+
+.borderColor{
+    border-color: #CD9B35;
+    border-width: thin;
+}
+.cardBackcolor{
+    background: #E8DDCC
+}
 /*SHADOW for cards*/
 .card-shadow {
     -webkit-box-shadow: 6px -4px 6px -2px rgba(0,0,0,0.37);
@@ -164,6 +207,8 @@ body {
 
  }
 /*End SHADOW for cards*/
+
+
 
 
 .parallax {

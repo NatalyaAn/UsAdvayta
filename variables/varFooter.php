@@ -16,10 +16,10 @@ $footer1 = '
 
 $footer = '
 <!-- Footer -->
-<footer class="mainfooter" role="contentinfo">
+<footer class="mainfooter " role="contentinfo">
  
   <div class="footer-middle">
-  <div class="container">
+  <div class="container ">
     <div class="row">
       <div class="col-md-3 col-sm-6">
         <!--Column1-->
@@ -50,8 +50,8 @@ $footer = '
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <!--Column4-->
-        <div class="footer-pad">
+        <!--Column4  Штучка-->
+        <div class="">
           <embed type="application/x-shockwave-flash" src="../public/images/tagcloud.swf" width="500" height="245"
        style=\'font-style: italic\'
        id="tagcloud"

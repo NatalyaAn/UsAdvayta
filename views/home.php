@@ -97,15 +97,15 @@ include("layout/nav.php");
 
 <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow " style="height: 0px">
 
-    <h2 class="text-center">Йога в традиции сиддхов</h2>
-    <p class="lead text-center">...Website under construction...</p>
+    <h1 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h1>
+    <p class="lead text-center"></p>
     <p class="lead text-center"></p>
 
 
 </div>
-<div class="jumbotron jumbotron-fluid bgc card-shadow " ">
+<div class="jumbotron jumbotron-fluid bgc card-shadow " >
 
-    <h2 class="text-center"></h2>
+    <h2 class="text-center">ЙОГА В ТРАДИЦИИ СИДДХОВ</h2>
     <p class="lead text-center">...Website under construction...</p>
     <p class="lead text-center"></p>
 
@@ -183,7 +183,7 @@ include("layout/nav.php");
             <div class="card-block">
                 <h4 class="card-title text-center">Йога-туры выходного дня</h4>
                 <p class="card-text">Походы выходного дня любят все, особенно городской житель, прикованный к офисной работе и шумному городу. Но, когда физические нагрузки похода переплетаются с медитативной практикой, такой как
-                    концентрация на пространстве, или наблюдении бесконечного небесного простота, или объединение со стихиями - понимаешь, что садхане нет конца, есть только ее углубление.</p>
+                    концентрация на пространстве, или наблюдение бесконечного небесного простота, или объединение со стихиями - понимаешь, что садхане нет конца, есть только ее углубление.</p>
 
             </div>
         </div>

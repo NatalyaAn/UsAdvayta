@@ -36,7 +36,7 @@
 
 </head>
 
-<body >
+<body b>
 
 <!-- Navbar -->
 
@@ -58,57 +58,36 @@ include("layout/nav.php");
 include("layout/news.php");
 ?>
 
-<div class="jumbotron   ">
-    <h2 class="text-center">Даттаджаянти 2017</h2>
+<div class="jumbotron  p-4 m-0 jumbotronGoldBackcolor " style="  ">
+    <h2 class="text-center  m-0 ">Последние мероприятия </h2>
 
-    <div class="container ">
-        <p>День Явления Даттатрейи  прошёл 3 декабря. Наша Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами и Дхарма центрами разрастающейся по всему миру  Сангхи. Силу Благословений и Радость медитаций и джапы (повторений имени Даттатрейи), невозможно передать словами. Когда все братья и сёстры собираются вместе и совершают определённые ритуальные действия вместе, медитируют и объединяют высокие вибрации, то божественная радость и чистота наполняет сердце каждого духовного искателя, каждого члена группы.
+</div><!-- /.jumbotron-->
+
+<div class="jumbotron  p-4 m-0 " style="background:  ">
+    <h3 class="text-center m-0 ">Даттаджаянти 2017</h3>
+    <div class="card-block ">
+    <img src="../public/images/picturesPage/dattajayanti/img_1545.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
+
+        <img src="../public/images/picturesPage/dattajayanti/img_1538.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
+        <p>День Явления Даттатрейи  прошёл 3 декабря. Наша Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами
+            и Дхарма центрами разрастающейся по всему миру  Сангхи. Силу Благословений и Радость медитаций и джапы (повторений имени Даттатрейи),
+            невозможно передать словами. Когда все братья и сёстры собираются вместе и совершают определённые ритуальные действия вместе, медитируют
+            и объединяют высокие вибрации, то божественная радость и чистота наполняет сердце каждого духовного искателя, каждого члена группы.
         Такие моменты объединяют и переносят нас в другое измерение - локу Света и Любви, Чистоты и Великолепия Божественной Радости.</p>
         <p>Спасибо всем огромное, кто принял участие в общем Празднике Даттаджаянти!</p>
         <p>Всех Благ!</p>
         <p>Намасте</p>
         </p>
-    </div>
-    <p class="lead text-center"></p>
-</div>
+        <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
+    </div><!-- /.card-block-->
+</div><!-- /.jumbotron-->
 
 
 
 
 
 
-<div class="card-columns ">
-    <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img-top img-fluid" src="../public/images/picturesPage/dattajayanti/img_1543.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img-top img-fluid" src="../public/images/picturesPage/dattajayanti/img_7994.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_6795.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img img-fluid " src="../public/images/picturesPage/dattajayanti/img_7989.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1544.jpg" alt="Card image cap">
-    </div>
-    <div class="card">
-        <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_15371.jpg" alt="Card image">
-    </div>
-    <div class="card ">
-        <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1538.jpg" alt="Card image cap">
-    </div>
-    <div class="card ">
-        <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_1541.jpg" alt="Card image">
-    </div>
-    <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1542.jpg" alt="Card image cap">
-    </div>
-</div>
+
 
 
 

@@ -39,6 +39,11 @@
 include("layout/nav.php");
 ?>
 
+<div class="jumbotron jumbotron-fluid bgc card-shadow " >
+    <h3 class="text-center"></h3>
+    <p class="lead text-center"></p>
+    <p class="lead text-center"></p>
+</div>
 
 <div class="container-fluid mt-5">
 

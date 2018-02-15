@@ -39,7 +39,6 @@
 
 
 
-
 </head>
 <body  >
 
@@ -53,15 +52,23 @@ include("layout/nav.php");
 
 <div class=" py-3 bg-faded" >
 
-    <header class="text-center"><h3 >Книги</h3></header>
+    <div class="jumbotron jumbotron-fluid bgc card-shadow " >
+
+        <h3 class="text-center">Книги</h3>
+        <p class="lead text-center"></p>
+        <p class="lead text-center"></p>
+
+
+    </div>
+
 
 
     <div class="  container py-3  "   ><!--row1-->
     <div class="card-deck">
-        <div class="card ">
+        <div class="card border-0">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/layaAmrita.jpg" alt="Освобождающий нектар драгоценных наставлений. Лайя Амрита Упадеша Чинтамани">
-            <div class="card-block">
-                <p class="card-text" ><small></small></p>
+
+
                 <button type="button" class="btn btn-link" data-toggle="popover"
                         title="Освобождающий нектар драгоценных наставлений. Лайя Амрита Упадеша Чинтамани"
                         data-content="Данный текст является бесценным собранием устных наставлений великих святых, сиддхов – существ, достигших вершин духовной реализации.
@@ -73,12 +80,11 @@ include("layout/nav.php");
                     Подробнее...
                 </button>
 
-            </div><!--card-block-->
+
         </div> <!--card-->
-        <div class="card ">
+        <div class="card border-0">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/bojestvGordosti.jpg" alt="Путь божественной гордости. Свабхава Упадеша Чинтамани">
-            <div class="card-block">
-                <p class="card-text" ><small></small></p>
+
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Путь божественной гордости. Свабхава Упадеша Чинтамани"
                         data-content="Путь пестования Божественной Гордости является одним из трех разделов Учения о поддержании созерцания
                         (Праджня-янтры) в традиции Лайя-йоги. Праджня-Янтра означает раздел Мудрости – это наше созерцание, все, что связано
@@ -89,24 +95,22 @@ include("layout/nav.php");
                            условное для удобства изучения, а естественное состояние – оно одно, что бы вы ни практиковали.">
                     Подробнее...
                 </button>
-            </div><!--card-block-->
+
         </div><!--card-->
-        <div class="card ">
+        <div class="card border-0">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/rastvoren5elem.jpg" width="100%" alt="Путь растворения пяти элементов. Панча Бхута Лайя Чинтана">
-            <div class="card-block">
-                <p class="card-text" ><small></small></p>
+
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Путь растворения пяти элементов. Панча Бхута Лайя Чинтана"
                         data-content="Пять элементов – это пять фундаментальных энергий, проявляющихся в бытии.Согласно учению тантры, материя Вселенной
                         состоит из комбинаций пяти элементов.Пять элементов находятся как вовне, образуя внешнюю Вселенную, так и внутри, образуя тело.
                         Учение Лайя-йоги заключается в растворении пяти элементов, составляющих физическое тело, до уровня звука и света.">
                     Подробнее...
                 </button>
-            </div><!--card-block-->
+
         </div><!--card-->
-        <div class="card ">
+        <div class="card border-0">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/anava.jpg" width="100%" alt="Анава-йога">
-            <div class="card-block">
-                <p class="card-text" ><small></small></p>
+
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Анава-йога"
                         data-content="Пока мы не обнаружили принцип обнаженного осознавания, наш ум сильно схватывается этой реальностью, внешним миром.
                          Практики Анава-йоги – это эффективные методы, которые позволяют за короткое время освободиться от связанности дуальным мышлением,
@@ -114,12 +118,11 @@ include("layout/nav.php");
                            воспринимать мир с точки зрения вечности, бесконечности, парадокса, игры. ">
                     Подробнее...
                 </button>
-            </div><!--card-block-->
+
         </div><!--card-->
-        <div class="card ">
+        <div class="card border-0">
             <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/istinaVne.jpg" width="100%" alt="Истина вне ума">
-            <div class="card-block">
-                <p class="card-text" ><small></small></p>
+
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Истина вне ума" data-placement="left"
                         data-content="Пока мы не открыли мировоззрение недвойственности или не научились пребывать в состоянии медитации за пределами мыслей,
                          концепции имеют силу над нами, мысленные конструкции всегда очаровывают нас, и наш ум подпадает под их влияние. А потому, даже если
@@ -129,30 +132,28 @@ include("layout/nav.php");
                            ум позволяет нам обесценить мысленные построения и проникнуть в то, что находится за пределами ума.">
                     Подробнее...
                 </button>
-            </div><!--card-block-->
+
         </div><!--card-->
     </div><!--card-deck-->
     </div><!-- /.container row1-->
 
 
-    <div class="  container py-3 bg-faded"><!--row2-->
+    <div class="  container py-3 "><!--row2-->
         <div class="card-deck">
-            <div class="card ">
+            <div class="card border-0">
                 <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/fenomenGuruYogi.jpg" width="100%" alt="Феномен Гуру-йоги">
-                <div class="card-block">
-                    <p class="card-text" ><small></small></p>
+
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Феномен Гуру-йоги"
                             data-content="Гуру-йога есть авторитетный принцип духовного обучения, основанный на установлении особых священных взаимоотношений
                              между Учителем и учеником. Обычно о Гуру-йоге говорят в контексте тантрических учений индуизма или буддизма, однако феномен
                              Гуру-йоги распространен гораздо более широко, нежели принято об этом думать, и присутствует внутри любой серьезной духовной традиции.">
                         Подробнее...
                     </button>
-                </div><!--card-block-->
+
             </div><!--card-->
-            <div class="card ">
+            <div class="card border-0">
                 <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/dattaUchitel.jpg" width="100%" alt="Даттатрейя как Учитель человечества">
-                <div class="card-block">
-                    <p class="card-text" ><small></small></p>
+
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Даттатрейя как Учитель человечества"
                             data-content="Бхагаван Даттатрейя есть Учитель всех Учителей, изначальный Наставник всех йогов и сиддхов. Он олицетворяет принцип
                             воззрения Адвайты и самоосвобожденного поведения – игры в облике авадхуты. Даттатрейя является воплощением Троицы богов (Тримурти):
@@ -161,12 +162,11 @@ include("layout/nav.php");
                                олицетворяет Путь и цель самой абсолютной Истины или Реальности. Он является самой Истиной.">
                         Подробнее...
                     </button>
-                </div><!--card-block-->
+
             </div><!--card-->
             <div class="card ">
                 <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/siddhaBrahmananda.jpg" width="100%" alt="Книга о великом сиддха-йогине Свами Брахмананде">
-                <div class="card-block">
-                    <p class="card-text" ><small></small></p>
+
 
                     <button type="button" class="btn btn-link " data-toggle="popover" title="Книга о великом сиддха-йогине Свами Брахмананде" id="collapseNews"
                             data-content="Авадхута – это тот, кто полностью преодолел двойственность материального мира, «я» которого полностью стало единым с
@@ -176,22 +176,20 @@ include("layout/nav.php");
                               индивидуальной душе (дживе) в человеческом воплощении. ">
                         Подробнее...
                     </button>
-                </div><!--card-block-->
+
             </div><!--card-->
-            <div class="card ">
+            <div class="card border-0">
                 <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/avadhutaGita.jpeg" width="100%" alt="Авадхута Гита">
-                <div class="card-block">
-                    <p class="card-text" ><small></small></p>
+
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Авадхута Гита"
                             data-content="">
                         Подробнее...
                     </button>
-                </div><!--card-block-->
+
             </div><!--card-->
-            <div class="card ">
+            <div class="card border-0">
                 <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/chistoeVidenie.jpeg" width="100%" alt="Чистое видение">
-                <div class="card-block">
-                    <p class="card-text" ><small></small></p>
+
                     <button type="button" class="btn btn-link" data-toggle="popover" title="Чистое видение" data-placement="left"
                             data-content="Чистое видение или мир мандалы означает реальность, которая полностью управляется сознанием.
                              В этой реальности человек находится в ее центре. Он задает ее параметры, законы, константы, управляет причинами,
@@ -200,17 +198,16 @@ include("layout/nav.php");
                                стадии йоги  – превращение собственного физического тела в радужное тело, состоящее из света.">
                         Подробнее...
                     </button>
-                </div><!--/.card-block-->
+
             </div><!--/.card-->
         </div><!--/.card-deck-->
     </div><!-- /.container row2 -->
 
-    <div class="  container py-3 bg-faded"><!--row3-->
+    <div class="  container py-3  "><!--row3-->
             <div class="card-deck">
-                <div class="card ">
+                <div class="card border-0">
                     <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/karmaYoga.jpeg" width="100%" alt="Карма-Йога">
-                    <div class="card-block">
-                        <p class="card-text" ><small></small></p>
+
                         <button type="button" class="btn btn-link" data-toggle="popover" title="Карма-Йога"
                                 data-content="Кармы – это движение энергии, это развертывание энергии. Когда энергия развертывается, то она развертывается
                                  в пространстве и времени. Видоизменение энергии во времени называется паринама, то есть когда одно переходит в другое.
@@ -220,47 +217,43 @@ include("layout/nav.php");
                                      Причина – учитель дает передачу, следствие – ученик получает опыт. ">
                             Подробнее...
                         </button>
-                    </div><!--card-block-->
+
                 </div><!--card-->
-                <div class="card ">
+                <div class="card border-0">
                     <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/sushnostnyeNastavlenia.jpeg" width="100%" alt="Сущностные наставления по практике Лайя-Йоги">
-                    <div class="card-block">
-                        <p class="card-text" ><small></small></p>
+
                         <button type="button" class="btn btn-link" data-toggle="popover" title="Сущностные наставления по практике Лайя-Йоги"
                                 data-content="">
                             Подробнее...
                         </button>
-                    </div><!--card-block-->
+
                 </div><!--card-->
-                <div class="card ">
+                <div class="card border-0">
                     <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/sviashennyeTeksty.jpeg" width="100%" alt="Шри Авадхута Даттатрея. Священные тексты">
-                    <div class="card-block">
-                        <p class="card-text" ><small></small></p>
+
                         <button type="button" class="btn btn-link" data-toggle="popover" title="Шри Авадхута Даттатрея. Священные тексты"
                                 data-content="">
                             Подробнее...
                         </button>
-                    </div><!--card-block-->
+
                 </div><!--card-->
-                <div class="card ">
+                <div class="card border-0">
                     <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/defaultBook.png" width="100%" alt="Card image cap">
-                    <div class="card-block">
-                        <p class="card-text" ><small></small></p>
+
                         <button type="button" class="btn btn-link" data-toggle="popover" title=""
                                 data-content="">
                             <!--Подробнее...-->
                         </button>
-                    </div><!--card-block-->
+
                 </div><!--card-->
-                <div class="card ">
+                <div class="card border-0">
                     <img class="card-img-top book-shadow book-size" src="../public/images/booksPage/defaultBook.png" width="100%" alt="Card image cap">
-                    <div class="card-block">
-                        <p class="card-text" ><small></small></p>
+
                         <button type="button" class="btn btn-link" data-toggle="popover" title="" data-placement="left"
                                 data-content="">
                             <!--Подробнее...-->
                         </button>
-                    </div><!--card-block-->
+
                 </div><!--card-->
             </div><!--card-deck-->
     </div><!-- /.container row3-->

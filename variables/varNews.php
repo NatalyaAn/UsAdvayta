@@ -1,8 +1,8 @@
 <?php
 $news = '
 
- <div class="jumbotron jumbotron-fluid jumbotron-padding bgc p-3 text-black">
-
+ <div class="jumbotron jumbotron-fluid jumbotron-padding bgc p-3 m-0 text-black">
+<h2 class="text-center m-0 ">Анонс событий</h2>
 
 <p >
   <a class="link " data-toggle="collapse" href="#collapseNews" aria-expanded="true" aria-controls="collapseNews">

@@ -35,7 +35,7 @@
 
 </head>
 
-<body >
+<body class="">
 
 <!-- Navbar -->
 
@@ -43,18 +43,22 @@
 include("layout/nav.php");
 ?>
 
-<div class=" py-3 bg-faded">
+<div class=" py-3   ">
+
+    <div class="jumbotron jumbotron-fluid bgc card-shadow " >
+
+        <h3 class="text-center">Даттаджаянти 3 декабря 2017</h3>
+        <p class="lead text-center"></p>
+        <p class="lead text-center"></p>
 
 
+    </div>
 
 <!--    <header class="text-center"><h3 >Даттаджаянти 3 декабря 2017</h3></header>-->
-    <div class="jumbotron jumbotron jumbotron-background card-shadow">
-        <h2 class="text-center">Даттаджаянти 2017</h2>
-
-        <p class="lead">
 
 
-             </p>
+
+
     </div>
 
     <div class="card-columns ">

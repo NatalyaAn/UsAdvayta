@@ -51,7 +51,7 @@
 
 </head>
 
-<body >
+<body class="cardBackcolor" >
 
 <!-- Navbar -->
 
@@ -64,7 +64,7 @@ include("layout/nav.php");
 
 
 
-<div class="  container ">
+<div class="  container-fluid mx-5 mt-1 px-5">
 
     <!-- spining om -->
     <h2 class="my-4 text-center"></h2>
@@ -75,7 +75,7 @@ include("layout/nav.php");
     <!-- row of 3 cards -->
 
     <div class="card-deck ">
-        <div class="card card-shadow">
+        <div class="card card-shadow1 cardBackcolor borderColor border-0" style="">
             <h4 class="card-header text-center ">Дхарма</h4>
             <img class="card-img-top " src="../public/images/datta1.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
@@ -84,9 +84,9 @@ include("layout/nav.php");
                 <a href="#dharma"  class="link">Подробнее...</a>
             </div>
         </div>
-        <div class="card card-shadow">
+        <div class="card card-shadow1 cardBackcolor borderColor border-0">
             <h4 class="card-header text-center ">Гуру</h4>
-            <img class="card-img-top" src="../public/images/Guru.jpg" style="width: 100%" alt="Card image cap">
+            <img class="card-img-top" src="../public/images/guru.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title">Учитель</h4>
                 <p class="card-text">Для духовных искателей самая большая драгоценность - это Учитель.
@@ -97,7 +97,7 @@ include("layout/nav.php");
                 <a href="#guru"  class="link">Подробнее...</a>
             </div>
         </div>
-        <div class="card card-shadow">
+        <div class="card card-shadow1 cardBackcolor borderColor border-0">
             <h4 class="card-header text-center ">Сангха</h4>
             <img class="card-img-top" src="../public/images/sangha1.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
@@ -157,13 +157,13 @@ include("layout/nav.php");
 </div>-->
 <!-- /.carousel -->
 
-<div class="jumbotron mt-4 jumbotron-fluid jumbotron-background card-shadow">
-    <h2 class="text-center">Три драгоценности</h2>
+<div class="jumbotron mt-4 jumbotron-fluid jumbotronGoldBackcolor card-shadow">
+    <h3 class="text-center">Три драгоценности</h3>
     <p class="lead text-center"></p>
 </div>
 <a id="dharma"  ></a>
-
-<div  class="container mt-5">
+<div class="bgc">
+<div  class="container  mt-5">
 
     <h4 style="padding-top: 100px; margin-top: -100px"  class="text-center">Учение</h4>
     Свами Вишнудевананда Гири Джи Махарадж
@@ -282,6 +282,8 @@ include("layout/nav.php");
     и многих других
     множества статей, очерков по философии теории и практике йоги и тантры в традиции «Сахаджаяны».
 </div>
+</div>
+
 <!-- #footer-->
 <?php
 include("layout/footer.php");
