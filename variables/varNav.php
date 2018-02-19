@@ -71,9 +71,9 @@ $nav = '
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!--<a class="navbar-brand" href="#">
-        <img src="../public/images/omGold11.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-    </a> -->
+    <a class="navbar-brand" href="#">
+        <img src="../public/images/omGen.png" width="40" height="40" class="d-inline-block align-top" alt="">
+    </a><!-- -->
 
    <div class="row">
 <div class="clearfix"></div>

@@ -68,7 +68,7 @@ include("layout/nav.php");
 
     <!-- spining om -->
     <h2 class="my-4 text-center"></h2>
-    <img class="img-catoon" src="../public/images/om3.jpg" >
+    <img class="img-catoon" src="../public/images/omTrans.png" >
 
 
 
@@ -76,32 +76,44 @@ include("layout/nav.php");
 
     <div class="card-deck ">
         <div class="card card-shadow1 cardBackcolor borderColor border-0" style="">
-            <h4 class="card-header text-center ">Дхарма</h4>
+            <h4 class="card-header text-center bgc">Дхарма</h4>
             <img class="card-img-top " src="../public/images/datta1.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Учение</h4>
+                <h4 class="card-title">Учение</h4> <hr/>
                 <p class="card-text"></p>
                 <a href="#dharma"  class="link">Подробнее...</a>
             </div>
         </div>
         <div class="card card-shadow1 cardBackcolor borderColor border-0">
-            <h4 class="card-header text-center ">Гуру</h4>
+            <h4 class="card-header text-center bgc">Гуру</h4>
             <img class="card-img-top" src="../public/images/guru.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Учитель</h4>
-                <p class="card-text">Для духовных искателей самая большая драгоценность - это Учитель.
-                    Тот, кто может донести непостижимое, божественное Учение через словесную передачу
-                    (книги, лекции,словесные инструкции), символическую (образы и символы)
-                    или внемысленную, предназначенную для сверхсознания. </p>
-<!--                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-                <a href="#guru"  class="link">Подробнее...</a>
+                <h4 class="card-title text-center">Учитель</h4><hr/>
+
+                <blockquote class="card-blockquote mx-5 color-black">
+                    <p class="card-text ">Нет ничего выше, чем Мастер, </p>
+                    <p class="card-text ">Нет ничего больше, чем Мастер, </p>
+                    <p class="card-text ">Нет ничего важнее, чем Мастер, </p>
+                    <p class="card-text ">Нет ничего загадочнее, чем Мастер... </p>
+                    <footer class="text-right ">
+                        <p><small class="text-muted">Горакшанатх <cite title="Source Title">"Сиддха-сиддханта-паддхати"</cite></small></p>
+                        <a href="#guru"  class="link color-primary-3 text-right">Подробнее...</a>
+
+                    </footer>
+
+                </blockquote>
+
+
+                <!--    <p class="card-text">Нет ничего загадочнее, чем Мастер. <i class="fa fa-quote-right"></i></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+
             </div>
         </div>
         <div class="card card-shadow1 cardBackcolor borderColor border-0">
-            <h4 class="card-header text-center ">Сангха</h4>
+            <h4 class="card-header text-center bgc">Сангха</h4>
             <img class="card-img-top" src="../public/images/sangha1.jpg" style="width: 100%" alt="Card image cap">
             <div class="card-block">
-                <h4 class="card-title">Община</h4>
+                <h4 class="card-title">Община</h4><hr/>
                 <p class="card-text"></p>
                 <a href="#sangha"  class="link">Подробнее...</a>
             </div>

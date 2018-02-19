@@ -24,7 +24,8 @@ $footer = '
       <div class="col-md-3 col-sm-6">
         <!--Column1-->
         <div class="footer-pad">
-          <img src="../public/images/brand.png" alt="Card image cap" style="width: 100px">
+          <!--<img src="../public/images/omTrans.png" alt="Card image cap" style="width: 200px">-->
+          
         </div>
       </div>
       <div class="col-md-3 col-sm-6">

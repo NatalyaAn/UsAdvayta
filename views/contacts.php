@@ -71,6 +71,34 @@
                     </footer>
                 </small>
             </div>
+
+
+            <?php
+            $to = "somebody@example.com";
+            $subject = "My subject";
+            $txt = "Hello world!";
+            $headers = "From: webmaster@example.com" . "\r\n" .
+                "CC: somebodyelse@example.com";
+           // mail($to,$subject,$txt,$headers);
+
+
+
+
+            // the message
+            $msg = "First line of text\nSecond line of text";
+
+            // use wordwrap() if lines are longer than 70 characters
+            $msg = wordwrap($msg,70);
+
+            // send email  function mail(to,subject,message,headers,parameters);
+           // mail("someone@example.com","My subject",$msg);
+            ?>
+
+
+
+
+
+
         </div><!-- /.card -->
         </div><!-- /.card -->
     <!-- #footer-->
@@ -90,6 +118,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
 </body>
 
 </html>

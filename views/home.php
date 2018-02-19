@@ -116,7 +116,7 @@ include("layout/nav.php");
 <div class="row  m-5 p-5 bgc">
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/seminar.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid " style="height:300px" src="../public/images/homePage/seminar.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Семинары и лекции</h4>
                 <p class="card-text">Как минимум 2 раза в год имеем счастье участвовать в семинарах монаха Раманатха и Лакшиты. Теория, тесно связанная с практикой,
@@ -129,7 +129,7 @@ include("layout/nav.php");
     </div>
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/sedona.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/homePage/sedona.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Поломничество</h4>
                 <p class="card-text">Поломничество - это путешествия по святым местам и местам силы, которые помогают сонастроиться с более высокими духовными энергиями, очиститься умом и телом, познакомиться с природой и культурой
@@ -140,7 +140,7 @@ include("layout/nav.php");
     </div>
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-responsive " style="height:390px" src="../public/images/homePage/practice1.jpg" alt="Card image cap">
+            <img class="card-img-top img-responsive " style="height:300px" src="../public/images/homePage/practice1.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Регулярные практики в ДЦ</h4>
                 <p class="card-text">Раз в месяц проходят общие йога-занятия в Бруклине для поддержания физической формы и духовной связи с Учением, Учителем и Сангхой.
@@ -153,7 +153,7 @@ include("layout/nav.php");
 
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/slet.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/homePage/slet.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Йога-слет</h4>
                 <p class="card-text">Йога-слет "Пробуждение" успешно прошел в июле 2017 в Woodstock, NY под кураторством монахов Раманатха и Лакшиты, а также инструкторов йоги Бадри и Майи. Ежедневные занятия по хатха-йоге,
@@ -169,7 +169,7 @@ include("layout/nav.php");
 <div class="row  m-5 p-5 bgc">
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Праздники</h4>
                 <p class="card-text"></p>
@@ -179,7 +179,7 @@ include("layout/nav.php");
     </div>
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/hike.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/homePage/hike.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Йога-туры выходного дня</h4>
                 <p class="card-text">Походы выходного дня любят все, особенно городской житель, прикованный к офисной работе и шумному городу. Но, когда физические нагрузки похода переплетаются с медитативной практикой, такой как
@@ -190,7 +190,7 @@ include("layout/nav.php");
     </div>
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/retreat.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/homePage/retreat.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Ритриты</h4>
                 <p class="card-text">Прохождение ритритов является кульминацией, итогом йогической практики и накопления залуг.
@@ -202,7 +202,7 @@ include("layout/nav.php");
 
     <div class="col-sm-3">
         <div class="card bgc border-0">
-            <img class="card-img-top img-fluid" style="height:390px" src="../public/images/homePage/havan.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" style="height:300px" src="../public/images/homePage/havan.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Хаван</h4>
                 <p class="card-text">Огненные ритуалы по призыванию Божественных сил, являются частью тантрической практики.</p>
