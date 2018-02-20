@@ -173,7 +173,7 @@ include("layout/nav.php");
             <div class="card-block">
                 <h4 class="card-title text-center">Праздники</h4>
                 <p class="card-text"></p>
-                <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
+                <a href="pictures.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
             </div>
         </div>
     </div>

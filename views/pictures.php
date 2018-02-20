@@ -43,11 +43,11 @@
 include("layout/nav.php");
 ?>
 
-<div class=" py-3   ">
+<div id="datta" class=" py-3   ">
 
     <div class="jumbotron jumbotron-fluid bgc card-shadow " >
 
-        <h3 class="text-center">Даттаджаянти 3 декабря 2017</h3>
+        <h3  class="text-center">Даттаджаянти 3 декабря 2017</h3>
         <p class="lead text-center"></p>
         <p class="lead text-center"></p>
 
@@ -56,10 +56,6 @@ include("layout/nav.php");
 
 <!--    <header class="text-center"><h3 >Даттаджаянти 3 декабря 2017</h3></header>-->
 
-
-
-
-    </div>
 
     <div class="card-columns ">
         <div class="card " >
@@ -94,8 +90,65 @@ include("layout/nav.php");
         </div>
     </div>
 
+    </div>
+
+
 </div>
 
+<div  class=" py-3   ">
+
+    <div id="ram2017" class="jumbotron jumbotron-fluid bgc card-shadow " >
+
+        <h3  class="text-center">Визит монахов Раманатха и Лакшиты ноябрь-декабря 2017</h3>
+        <p class="lead text-center"></p>
+        <p class="lead text-center"></p>
+
+
+    </div>
+
+    <!--    <header class="text-center"><h3 >Даттаджаянти 3 декабря 2017</h3></header>-->
+
+
+
+
+</div>
+
+
+<div class="card-columns ">
+
+    <div class="card " >
+        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/luda.jpg" alt="Card image1">
+    </div>
+    <div class="card " >
+        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/ram.jpg" alt="Card image1">
+    </div>
+    <div class="card " >
+        <img class="card-img-top img-fluid" src="../public/images/visitRam2017dec/img_1560.jpg" alt="Card image2">
+    </div>
+    <div class="card " >
+        <img class="card-img-top img-fluid" src="../public/images/visitRam2017dec/img_1570.jpg" alt="Card image3">
+    </div>
+    <div class="card " >
+        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/sangha1.jpg" alt="Card image4">
+    </div>
+    <div class="card " >
+        <img class="card-img img-fluid " src="../public/images/visitRam2017dec/fire.jpg" alt="Card image5">
+    </div>
+    <div class="card " >
+        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/havan1.jpg" alt="Card image6">
+    </div>
+    <div class="card">
+        <img class="card-img-top img-fluid l" src="../public/images/visitRam2017dec/havan2.jpg" alt="Card image7">
+    </div>
+    <div class="card ">
+        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/havan3.jpg" alt="Card image8">
+    </div>
+    <div class="card ">
+        <img class="card-img-top img-fluid l" src="../public/images/visitRam2017dec/lak.jpg" alt="Card image9">
+    </div>
+
+</div>
+</div>
 
 
 

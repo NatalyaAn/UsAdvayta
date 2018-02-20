@@ -69,7 +69,7 @@ include("layout/news.php");
     <img src="../public/images/picturesPage/dattajayanti/img_1545.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
 
         <img src="../public/images/picturesPage/dattajayanti/img_1538.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
-        <p>День Явления Даттатрейи  прошёл 3 декабря. Наша Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами
+        <p>День Явления Даттатрейи  прошёл 3 декабря. Наш Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами
             и Дхарма центрами разрастающейся по всему миру  Сангхи. Силу Благословений и Радость медитаций и джапы (повторений имени Даттатрейи),
             невозможно передать словами. Когда все братья и сёстры собираются вместе и совершают определённые ритуальные действия вместе, медитируют
             и объединяют высокие вибрации, то божественная радость и чистота наполняет сердце каждого духовного искателя, каждого члена группы.
@@ -78,10 +78,27 @@ include("layout/news.php");
         <p>Всех Благ!</p>
         <p>Намасте</p>
         </p>
-        <a href="picturesDattajanti.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
+        <a href="pictures.php#datta" class="link">Фотографии </a>
     </div><!-- /.card-block-->
 </div><!-- /.jumbotron-->
 
+
+<div class="jumbotron   p-4 m-0 " style="background: lemonchiffon  ">
+    <h3 class="text-center m-0 ">Приезд монахов Раманатха и Лакшиты ноябрь-декабрь 2017</h3>
+    <div class="card border-0" style="background: lemonchiffon">
+    <div class=" card-body card-block ">
+        <img src="../public/images/visitRam2017dec/img_1560.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
+
+        <img src="../public/images/visitRam2017dec/img_1570.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
+        <p>День Явления Даттатрейи  прошёл 3 декабря. Наша Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами
+            жественной Радости.</p>
+        <p>Спасибо всем огромное, кто принял участие в общем Празднике Даттаджаянти!</p>
+        <p>Всех Благ!</p>
+        <p>Намасте</p>
+        </p>
+        <a href="pictures.php#ram2017" class="link">Фотографии </a>
+    </div><!-- /.card-block--></div>
+</div><!-- /.jumbotron-->
 
 
 

@@ -38,7 +38,7 @@ $nav1 = '
                     Фото
                 </a>
                 <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="picturesDattajanti.php">Даттаджаянти 3дек 2017</a>
+                    <a class="dropdown-item" href="pictures.php">Даттаджаянти 3дек 2017</a>
 
                 </div>
             </li>
@@ -103,9 +103,10 @@ $nav = '
                     Фото
                 </a>
                 <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="picturesDattajanti.php">Даттаджаянти 3дек 2017</a>
-
+                    <a class="dropdown-item" href="pictures.php">Даттаджаянти 3дек 2017</a>
+                     <a class="dropdown-item" href="pictures.php">Визит Раманатха ноябрь 2017</a>
                 </div>
+               
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="video.php"">Видео</a>
