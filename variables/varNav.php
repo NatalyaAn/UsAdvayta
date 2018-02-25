@@ -95,7 +95,7 @@ $nav = '
                 <a class="nav-link " href="dharma.php""></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="jnanaMarga.php"">ДЦ "Джняна Марга" NY-NJ</a>
+                <a class="nav-link " href="jnanaMarga.php"">Наш центр</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -103,8 +103,8 @@ $nav = '
                     Фото
                 </a>
                 <div class="dropdown-menu dropdown-menu-left dropdown-content" aria-labelledby="navbarDropdown3">
-                    <a class="dropdown-item" href="pictures.php">Даттаджаянти 3дек 2017</a>
-                     <a class="dropdown-item" href="pictures.php">Визит Раманатха ноябрь 2017</a>
+                    <a class="dropdown-item" href="pictures.php#datta">Даттаджаянти 3дек 2017</a>
+                     <a class="dropdown-item" href="pictures.php#ram2017">Визит Раманатха ноябрь 2017</a>
                 </div>
                
             </li>

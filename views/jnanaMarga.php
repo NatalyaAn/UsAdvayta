@@ -36,13 +36,15 @@
 
 </head>
 
-<body b>
+<body >
 
 <!-- Navbar -->
 
 <?php
 include("layout/nav.php");
 ?>
+
+
 
 
 
@@ -57,6 +59,9 @@ include("layout/nav.php");
 <?php
 include("layout/news.php");
 ?>
+
+
+
 
 <div class="jumbotron  p-4 m-0 jumbotronGoldBackcolor " style="  ">
     <h2 class="text-center  m-0 ">Последние мероприятия </h2>

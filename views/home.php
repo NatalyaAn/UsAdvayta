@@ -30,8 +30,8 @@
 
     <!-- Custom styles for this template-->
     <link href="../public/css/mystyles.css" rel="stylesheet">
-<!--    <link href="../js/carousel.js" rel="stylesheet">-->
-    <link href="../js/navbar.js" rel="stylesheet">
+<!--    <link href="../js/carousel.js" rel="stylesheet">
+    <link href="../js/navbar.js" rel="stylesheet">-->
 
 
 </head>
@@ -98,6 +98,8 @@ include("layout/nav.php");
 <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow " style="height: 0px">
 
     <h1 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h1>
+    <h2 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h2>
+    <h3 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h3>
     <p class="lead text-center"></p>
     <p class="lead text-center"></p>
 
@@ -105,8 +107,8 @@ include("layout/nav.php");
 </div>
 <div class="jumbotron jumbotron-fluid bgc card-shadow " >
 
-    <h2 class="text-center">ЙОГА В ТРАДИЦИИ СИДДХОВ</h2>
-    <p class="lead text-center">...Website under construction...</p>
+    <h2 class="text-center"></h2>
+    <p class="lead text-center"></p>
     <p class="lead text-center"></p>
 
 
