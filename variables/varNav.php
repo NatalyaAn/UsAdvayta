@@ -72,7 +72,7 @@ $nav = '
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
-        <img src="../public/images/omGen.png" width="40" height="40" class="d-inline-block align-top" alt="">
+        <img src="../public/images/sanatana3.png" width="70" height="50" class="d-inline-block align-top" alt="">
     </a><!-- -->
 
    <div class="row">

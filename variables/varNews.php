@@ -2,7 +2,7 @@
 $news = '
 
  <div class="jumbotron jumbotron-fluid jumbotron-padding bgc p-3 m-0 text-black">
-<h2 class="text-center m-0 ">Анонс событий</h2>
+<h2 class="text-center mt-2 ">Анонс </h2>
 
 <p >
   <a class="link " data-toggle="collapse" href="#collapseNews" aria-expanded="true" aria-controls="collapseNews">
@@ -37,20 +37,26 @@ $news = '
 
         <div class="d-flex flex-sm-row  justify-content-center " >
 
-            <!--
-               <div class="card p-2 card-shadow "style="width: 30rem;">
-                 <img class="card-img-top img-thumbnail "  src="../public/images/ramanatha1.jpg" alt="Card image cap" align="left">
-                <div class="card-block">
-                <small class="text">
-                  <h6 class="card-title">Визит монаха Раманатха в США с 7-27 декабря 2017</h6>
-                  <p class="card-text"></p>
-                  <footer>
-                  <a href="http://usa.advayta.org/public/downloads/flyerRamanatha2017.php" class="card-link">Скачать флайер</a>
-                  </footer>
-                  </small>
-                </div>
-              </div> -->
+          <!-- card A-->  
+               <div class="card p-1 m-3" style="">
+    <div class=" card-body card-block  bg-cust1">
+        <img src="../public/images/kailas.jpg" class="card-img-left   rounded float-left px-2 " style="" alt="...">
 
+        
+        <h4 class="card-title">Поломничество на Кайлас</h4>
+        <p><small>Приглашаем в паломничество учеников и последователей Гуру, а также духовных искателей – последователей Санатана Дхармы. </small> </p>
+        <p><small></small></p>
+        <p class="card-text font-weight-bold">19 августа - 4 сентября 2018</p>
+        
+        
+        <a href="pictures.php#ram2017" class="link"> </a>
+        
+    </div><!-- /.card-block-->
+    </div>
+              
+               <!-- /.card A-->
+
+<!-- card B--> 
             <div class="card p-1 m-3 card-shadow1">
                 <div class="card-block bg-cust1">
                     <small class="text">                    
@@ -65,8 +71,9 @@ $news = '
                         </footer>
                     </small>
                 </div>
-            </div><!-- /.card -->
+            </div><!-- /.card B-->
 
+<!-- card C--> 
             <div class="card p-1 m-3  card-shadow1">
                <div class="card-block bg-cust1">
                <small class="text">
@@ -81,7 +88,7 @@ $news = '
                  </footer>
                </small>
              </div>
-             </div> <!--/.card -->
+             </div> <!--/.card C-->
 
 
 

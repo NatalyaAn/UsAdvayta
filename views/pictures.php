@@ -99,7 +99,7 @@ include("layout/nav.php");
 
     <div id="ram2017" class="jumbotron jumbotron-fluid bgc card-shadow " >
 
-        <h3  class="text-center">Визит монахов Раманатха и Лакшиты ноябрь-декабря 2017</h3>
+        <h3  class="text-center">Визит санньяси Раманатха и Лакшиты ноябрь-декабря 2017</h3>
         <p class="lead text-center"></p>
         <p class="lead text-center"></p>
 

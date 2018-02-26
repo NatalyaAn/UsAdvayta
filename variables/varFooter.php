@@ -54,7 +54,7 @@ $footer = '
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <!--Column4  Штучка-->
+        <!--Column4  Штучка-облако-->
         <div class="">
           <embed type="application/x-shockwave-flash" src="../public/images/tagcloud.swf" width="500" height="245"
        style=\'font-style: italic\'
@@ -62,15 +62,15 @@ $footer = '
        name="tagcloud" bgcolor="red" quality="high" wmode="transparent"
        bgcolor="f442c2"
        flashvars=
-"mode=tags&amp;distr=true&amp;tcolor2=0xFFD700&amp;tcolor=0xFF8C00&amp;hicolor=0x996515&amp;tagcloud=
-<tags>
-<a href=\'/UsAdvayta/views/video.php\' class=\'tag-link-1\' title=\'video\' style=\'font-size: 14px;\'>видео</a>
-<a href=\'/UsAdvayta/views/video.php\' class=\'tag-link-1\' title=\'video\' style=\'font-size: 134px; border: dashed;border-width: 0;border-bottom-color: blue\'>видео</a>
-<a href=\'/UsAdvayta/views/pictures.php\' class=\'tag-link-1\' title=\'pictures\' style=\'font-size: 6px;\'>фотографии zzz</a>
-<a href=\'/UsAdvayta/views/books.php\' class=\'tag-link-1\' title=\'books\' style=\'font-size: 20px;\'>книги</a>
-  <a href=\'/UsAdvayta/views/dharma.php\' class=\'tag-link-163\' title=\'dharma\' style=\'font-size:64px;\'>учение</a>
-  <a href=\'/UsAdvayta/views/contact.php\' class=\'tag-link-14\' title=\'contact\' style=\'font-size:24px;\'>контакты</a>
-  </tags>">
+           "mode=tags&amp;distr=true&amp;tcolor2=0x990000&amp;tcolor=0xffffff&amp;hicolor=0x088da5&amp;tagcloud=
+            <tags>
+            <a href=\'/views/video.php\' class=\'tag-link-1\' title=\'video\' style=\'font-size: 14px;\'>видео</a>
+            <a href=\'/views/jnanaMarga.php\' class=\'tag-link-2\' title=\'jnanaMarga\' style=\'font-size: 124px; border: dashed;border-width: 0;border-bottom-color: blue\'>джняна-марга</a>
+            <a href=\'/views/pictures.php\' class=\'tag-link-3\' title=\'pictures\' style=\'font-size: 12px;\'>фотографии</a>
+            <a href=\'/views/books.php\' class=\'tag-link-5\' title=\'books\' style=\'font-size: 20px;\'>книги</a>
+              <a href=\'/views/dharma.php\' class=\'tag-link-163\' title=\'dharma\' style=\'font-size:64px;\'>учение</a>
+              <a href=\'/views/contacts.php\' class=\'tag-link-14\' title=\'contact\' style=\'font-size:24px;\'>контакты</a>
+              </tags>">
         </div>
       </div>
     </div>
