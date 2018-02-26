@@ -33,7 +33,8 @@ $footer = '
         <div class="footer-pad">
           <h4>Наши контакты</h4>
           <ul class="list-unstyled">
-            <li><a href="#"></a></li>
+            
+            </li>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>            
           </ul>
@@ -44,6 +45,8 @@ $footer = '
         <div class="footer-pad">
           <h4>Соц сети</h4>
           <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/Dharma-Center-Laya-Yoga-USA-467297766625604/" target="_blank">
+            <i class="fa fa-facebook-official fa-2x mr-0"></i></a>
             <li><a href="#"></a></li>
             <li><a href="#"></a></li>
            

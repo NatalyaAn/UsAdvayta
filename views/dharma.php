@@ -65,7 +65,7 @@ include("layout/nav.php");
 
 
 <div  class="  container-fluid mx-5 mt-1 px-5">
-
+    <a id="top"  ></a>
     <!-- spining om -->
     <h2 class="my-4 text-center"></h2>
     <img class="img-catoon" src="../public/images/omTrans.png" >
@@ -186,10 +186,10 @@ include("layout/nav.php");
     <p class="lead text-center"></p>
 </div>
 <a id="dharma"  ></a>
+<!-- container Учение-->
+<div  class="container  mt-5" ">
 
-<div  class="container  mt-5">
-
-    <h4 style="padding-top: 100px; margin-top: -100px"  class="text-center">Учение</h4>
+    <h4 style="padding-top: 100px; margin-top: -100px"  class="text-center">Учение !!!написать</h4>
     <p>
     Свами Вишнудевананда Гири Джи Махарадж
     Свами Вишнудевананда Гири (Свами Вишну Дэв) русскоязычный дипломированный Мастер йоги, с 20-летним стажем духовной практики, обучавшийся в молодости более чем у десяти учителей.
@@ -218,15 +218,19 @@ include("layout/nav.php");
     и многих других
     множества статей, очерков по философии теории и практике йоги и тантры в традиции «Сахаджаяны».
     </p>
+
     <p>
-        <a href="#"  class="link">Вернуться в начало...</a>
+        <a href="#top" class="link" ><i class="fa fa-level-up fa-1x mr-2"></i>Наверх...</a>
     </p>
-</div><!-- /.container -->
+<hr/>
+<p class="color-primary-11">/</p> <!-- previous link doesn't work without this I don't know why-->
+</div><!-- /.container Учение-->
 
-
+<!-- container Гуру-->
     <div  class="container mt-5">
 
-        <h4 id="guru" style="padding-top: 100px; margin-top: -100px" class="text-center">Учитель</h4>
+        <h4 id="guru" style="padding-top: 100px; margin-top: -100px" class="text-center">Учитель - Свами Вишнудевананда Гири</h4>
+
         <p>Это называется Гуру-падашрая. Гуру - это духовный учитель, который учит Брахма-джняне - мудрости Абсолюта на основе писаний и личного опыта, учит пути мокши;
             "пада" - это его стопы,  то есть его проявление в этом мире; "ашрая" - это прибежище.</p>
         <p>
@@ -259,25 +263,31 @@ include("layout/nav.php");
         </p>
         <p class="text-right"><small class="text-muted "> <cite title="Source Title">Из сатсанга Гуру Свами Вишнудевананда Гири</cite></small></p>
 
-
-
         <p>
-            <a href="#"  class="link">Вернуться в начало...</a>
+            <a href="http://www.advayta.org/257" target="_blank" class="link">Более подробная информация...</a>
         </p>
 
+        <p>
+            <a href="#top"  class="link"><i class="fa fa-level-up fa-1x mr-2"></i>Наверх...</a>
+        </p>
+<hr/>
+        <p class="color-primary-11">/</p> <!-- previous link doesn't work without this I don't know why-->
+
+
+</div><!-- /.container Гуру-->
+<div class="">
 
 
 
 
-</div><!-- /.container -->
+</div>
 
 
-
-
+<!-- container Община-->
 <div  class="container mt-5 mb-5">
 <!--    <a name="sangha"></a>-->
-    <h4 id="sangha" style="padding-top: 100px; margin-top: -100px" class="text-center">Община</h4>
-    Свами Вишнудевананда Гири Джи Махарадж
+    <h4 id="sangha" style="padding-top: 100px; margin-top: -100px" class="text-center">Община !!!написать</h4>
+    <p> Свами Вишнудевананда Гири Джи Махарадж
     Свами Вишнудевананда Гири (Свами Вишну Дэв) русскоязычный дипломированный Мастер йоги, с 20-летним стажем духовной практики, обучавшийся в молодости более чем у десяти учителей.
     Является основателем единственного в России высшего учебного заведения йоги  – Монастыря-академии йоги «Собрание тайн» (Адвайта-йога ашрама «Собрание Тайн») с уникальной системой обучения и практики, а также  Всемирной общины Лайя-йоги, имеющей последователей в странах СНГ и за рубежом.
     Просветленный Мастер Свами Вишнудевананда Гири (Свами Вишну Дэв) длительное время (около трех лет) провел в ритритном отшельничестве.
@@ -330,10 +340,11 @@ include("layout/nav.php");
     «Сердце йогической садханы»
     и многих других
     множества статей, очерков по философии теории и практике йоги и тантры в традиции «Сахаджаяны».
-    <p>
-    <a href="#"  class="link">Вернуться в начало...</a>
     </p>
-</div><!-- /.container -->
+    <p>
+    <a href="#top"  class="link"><i class="fa fa-level-up fa-1x mr-2"></i>Наверх...</a>
+    </p>
+</div><!-- /.container Община-->
 
 
 <!-- #footer-->

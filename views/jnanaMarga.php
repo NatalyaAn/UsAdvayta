@@ -64,7 +64,7 @@ include("layout/news.php");
 
 
 <div class="jumbotron  p-4 m-0 jumbotronGoldBackcolor " style="  ">
-    <h2 class="text-center  m-0 ">Последние мероприятия </h2>
+    <h2 class="text-center  m-0 ">Хронология событий </h2>
 
 </div><!-- /.jumbotron-->
 
@@ -118,7 +118,7 @@ include("layout/news.php");
 
 <!-- #footer -->
 <?php
-include("layout/footer.php");
+//include("layout/footer.php");
 ?>
 
 

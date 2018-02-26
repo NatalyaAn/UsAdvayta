@@ -174,7 +174,11 @@ include("layout/nav.php");
             <img class="card-img-top img-fluid" style="height:300px" src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image cap">
             <div class="card-block">
                 <h4 class="card-title text-center">Праздники</h4>
-                <p class="card-text"></p>
+                <p class="card-text">Духовные праздники, как проявление божественной игры входят в нашу жизнь и постепенно
+                    растворяют наши грубые ограничения, кармы в божественной бхаве (настроении). Играй, наслаждайся, расслабляй тело и ум, открывай сердце,
+                    будь как ребенок на празднике этой жизни!
+
+                </p>
                 <a href="pictures.php" class="link">Фото с Даттаджаянти 3 дек.2017 </a>
             </div>
         </div>

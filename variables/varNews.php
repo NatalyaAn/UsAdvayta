@@ -53,8 +53,8 @@ $news = '
 
             <div class="card p-1 m-3 card-shadow1">
                 <div class="card-block bg-cust1">
-                    <small class="text">
-                        <h4 class="card-title">Skype-занятия</h4>
+                    <small class="text">                    
+                        <h4 class="card-title"><i class="fa fa-skype fa-1x mr-2"></i>Skype-занятия</h4>
 
 
                         <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
@@ -70,10 +70,10 @@ $news = '
             <div class="card p-1 m-3  card-shadow1">
                <div class="card-block bg-cust1">
                <small class="text">
-                 <h4 class="card-title">Ежемесячное занятие </h4>
+                 <h4 class="card-title"><i class="fa fa-users fa-1x mr-2"></i>Ежемесячное занятие </h4>
 
 
-           <p class="card-text">Очередная встреча дхарма центра Джняна Марга пройдет </p>
+           <p class="card-text">Очередная встреча дхарма центра "Джняна-Марга" пройдет </p>
            <p class="card-text font-weight-bold">в субботу 3 марта </p>
            <p class="card-text"></p>
                  <footer>
@@ -99,7 +99,7 @@ $news = '
             <div class="card p-1 m-3 bg-cust1 card-shadow1">
                 <div class="card-block ">
                     <small class="text-center">
-                        <h4 class="card-title">Онлайн занятия в Skype</h4>
+                        <h4 class="card-title ">Расписание занятий в Skype</h4>
                         <h6 class="card-title">Изучение Учения в группе через слушание доклада по определенной теме, вопросы-ответы и обсуждения. </h6>
                         <h6 class="card-title">с 8-10 pm 2-ой и 4-ый четверг каждого месяца</h6>
                         <h6 class="card-title"></h6>
@@ -126,8 +126,8 @@ $news = '
                     <div class="w-100 mt-2"></div>
 
                     <div class="col-3"> </div>
-                    <div class="col-6"></div>
-                    <div class="col-3">Василий</div>
+                    <div class="col-6">Пранаяма</div>
+                    <div class="col-3">Ирина Бениам.</div>
                     <div class="w-100 mt-2"></div>
 
                     <div class="col-3"> </div>
