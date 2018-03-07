@@ -81,7 +81,7 @@
             {
                 ?>
                 <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-                    From: <input type="text" name="from"><br>
+                    From1: <input type="text" name="from"><br>
                     Subject: <input type="text" name="subject"><br>
                     Message: <textarea rows="10" cols="40" name="message"></textarea><br>
                     <input type="submit" name="submit" value="Click To send mail">
@@ -114,27 +114,57 @@
 
             /////////////////////////////////////////////////
 
+
             <?php
-            $to = "somebody@example.com";
-            $subject = "My subject";
-            $txt = "Hello world!";
-            $headers = "From: webmaster@example.com" . "\r\n" .
-                "CC: somebodyelse@example.com";
-           // mail($to,$subject,$txt,$headers);
 
+            if (!isset($_POST["submit"]))
+            {
+                ?>
+                <h4> Послать нам сообщение</h4>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" name="from" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Send</button>
+                        </div>
+                    </div>
+                </form>
+                <?php
+            }
 
+            else
 
+            {
 
-            // the message
-            $msg = "First line of text\nSecond line of text";
+                if (isset($_POST["from"]))
+                {
+                    $from = $_POST["from"]; // sender
+                    $subject = $_POST["subject"];
+                    $message = $_POST["message"];
 
-            // use wordwrap() if lines are longer than 70 characters
-            $msg = wordwrap($msg,70);
+                    $message = wordwrap($message, 70);
 
-            // send email  function mail(to,subject,message,headers,parameters);
-           // mail("someone@example.com","My subject",$msg);
+                    //mail("Test@example.com",$subject,$message,"From: $from\n");
+                    echo "Thank you for sending an email";
+                }
+            }
             ?>
 
+/////////////////////////////////////////////
 
 
 

@@ -97,23 +97,35 @@ include("layout/nav.php");
 
 <div class="jumbotron jumbotron-fluid jumbotron-background card-shadow " style="height: 0px">
 
-    <h1 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h1>
-    <h2 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h2>
-    <h3 class="text-center  " style="margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h3>
-    <p class="lead text-center"></p>
-    <p class="lead text-center"></p>
+    <h1 class="text-center  " style="color: brown; margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h1>
+
+
+    <h2 class="text-center  "  style="color: #3d6277; margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h2>
+    <h3 class="text-center  "  style="color: black; margin-top: 220px">ЙОГА В ТРАДИЦИИ СИДДХОВ</h3>
+
 
 
 </div>
 <div class="jumbotron jumbotron-fluid bgc card-shadow " >
 
-    <h2 class="text-center"></h2>
+    <h3 class="text-center mx-0" style="color: brown"><i class="fa fa-quote-left" style="font-size:10px;  "></i>
+        Стоя, сидя, лежа, работая, разговаривая, во время ходьбы, еды, омовения и сна не теряй присутствие -
+    </h3>
+    <h3 class="text-center " style="color: brown">Это Атма-ништха, великая Лайя-йога, разрывающая круг рождения и смерти.
+        <i class="fa fa-quote-right" style="font-size:10px; vertical-align:text-top "></i></h3>
     <p class="lead text-center"></p>
     <p class="lead text-center"></p>
+        <footer class="text-right blockquote-footer mx-5">Свами Вишнудевананда Гири,
+            <cite title="Source Title">Освобождающий нектар драгоценных наставлений</cite>
+        </footer>
 
 
-</div>
+    <p>
+        <div class="mx-5" align="right">
+        <a href="dharma1.php" class="link ">Подробнее...</a>
+    </div>
 
+</div><!--<./jumbotron>-->
 
 <div class="row  m-5 p-5 bgc">
     <div class="col-sm-3">
@@ -125,7 +137,7 @@ include("layout/nav.php");
                     дает возможность для самостоятельной непрерывной работы в течение длительного времени. Методы по Учению, которые дает Раманатха, такие как выделение тонкого тела, Кундалини-йога,
                     полнота внимания и созерцание в движении, работа с чакрами, Атма-вичара,
                     как бусины дорогого ожерелья нанизываются на стремление ищущих к духовному росту и Пробуждению.</p>
-                <!--            <a href="#" class="link"></a>-->
+                <a href="http://ramanatha.advayta.org" target="_blank" class="link"  >Вебсайт санньяси Раманатха</a>
             </div>
         </div>
     </div>

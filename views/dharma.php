@@ -182,7 +182,19 @@ include("layout/nav.php");
 <!-- /.carousel -->
 
 <div class="jumbotron mt-4 jumbotron-fluid jumbotronGoldBackcolor card-shadow">
-    <h3 class="text-center">Три драгоценности</h3>
+
+        <h3 class="text-center mх-0" style="color: brown"><i class="fa fa-quote-left" style="font-size:10px;  "></i> Три жемчужины даются каждому ученику, которые он трепетно несет в своем сердце всю жизнь,
+        </h3>
+        <h3 class="text-center " style="color: brown"> как самое драгоценное сокровище. Они есть Мастер, Путь и круг спутников. <i class="fa fa-quote-right" style="font-size:10px; vertical-align:text-top "></i></h3>
+        <p class="lead text-center"></p>
+        <p class="lead text-center"></p>
+        <footer class="text-right blockquote-footer mx-5">Свами Вишнудевананда Гири,
+            <cite title="Source Title">Кодекс Мастера</cite>
+        </footer>
+
+
+
+    <h3 class="text-center"></h3>
     <p class="lead text-center"></p>
 </div>
 <a id="dharma"  ></a>

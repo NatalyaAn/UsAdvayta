@@ -25,7 +25,7 @@ $news = '
         <a class="nav-link" data-toggle="tab" href="#skype" role="tab">Расписание skype-занятий</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#yogaPractice" role="tab">Расписание йога-занятий</a>
+        <a class="nav-link" data-toggle="tab" href="#yogaPractice" role="tab"></a>
     </li>
 
 </ul>
@@ -80,9 +80,9 @@ $news = '
                  <h4 class="card-title"><i class="fa fa-users fa-1x mr-2"></i>Ежемесячное занятие </h4>
 
 
-           <p class="card-text">Очередная встреча дхарма центра "Джняна-Марга" пройдет </p>
-           <p class="card-text font-weight-bold">в субботу 3 марта </p>
-           <p class="card-text"></p>
+           <p class="card-text">Очередная встреча дхарма центра "Джняна-Марга" пройдет: </p>
+           <p class="card-text font-weight-bold">7 апреля (в субботу ) в 1 час дня </p>
+           <p class="card-text font-weight-bold">студия Бадри</p>
                  <footer>
                  <a href="skype.php" class="card-link"></a>
                  </footer>
@@ -90,7 +90,22 @@ $news = '
              </div>
              </div> <!--/.card C-->
 
+<!-- card E--> 
+            <div class="card p-1 m-3  card-shadow1">
+               <div class="card-block bg-cust1">
+               <small class="text">
+                 <h4 class="card-title"><i class="fa fa-diamond fa-1x mr-2"></i>Ежемесячный ритрит </h4>
 
+
+           <p class="card-text">Мартовский ритрит в NJ пройдет: </p>
+           <p class="card-text font-weight-bold">17-18 марта (суббота, воскресенье) </p>
+           <p class="card-text"></p>
+                 <footer>
+                 <a href="skype.php" class="card-link"></a>
+                 </footer>
+               </small>
+             </div>
+             </div> <!--/.card E-->
 
 
 
@@ -123,29 +138,53 @@ $news = '
                     <div class="w-100 mt-2"></div>
 
                     <div class="col-3 "> 03/15/2018</div>
-                    <div class="col-6">Элементы</div>
+                    <div class="col-6">Качества 5 элементов и 3 гун</div>
                     <div class="col-3">Людмила</div>
-                    <div class="w-100 mt-2"></div>
-
-                    <div class="col-3"> </div>
+                    <div class="w-100 mt-2"></div>   
+                    
+                     <div class="col-3">03/29/2018 </div>
                     <div class="col-6">Гуру-йога</div>
                     <div class="col-3">Наталья</div>
-                    <div class="w-100 mt-2"></div>
+                    <div class="w-100 mt-2"></div>                 
+                    
+                    <div class="col-3">04/12/2018  </div>
+                    <div class="col-6">Взаимосвязь гун, дош, сущностей, элементов как макро и микрокосм </div>
+                    <div class="col-3">Василий</div>
+                    <div class="w-100 mt-2"></div>                  
+                   
 
-                    <div class="col-3"> </div>
+                    <div class="col-3">04/26/2018</div>
                     <div class="col-6">Пранаяма</div>
                     <div class="col-3">Ирина Бениам.</div>
                     <div class="w-100 mt-2"></div>
-
-                    <div class="col-3"> </div>
-                    <div class="col-6"></div>
-                    <div class="col-3"></div>
-                    <div class="w-100 mt-2"></div>
-
+                                    
                     <div class="col-3"> </div>
                     <div class="col-6">Созерцательное присутствие </div>
                     <div class="col-3"></div>
                     <div class="w-100 mt-2"></div>
+<hr/><hr/>
+                  <div class="col-3 font-weight-bold "> Дата</div>
+                    <div class="col-6 font-weight-bold">Лекция в записи</div>
+                    <div class="col-3 font-weight-bold ">Докладчик</div>
+                    <div class="w-100 mt-2"></div> 
+
+
+                    <div class="col-3">02/22/2018 </div>
+                    <div class="col-6">Гармоничные отношения в несамайной семье </div>
+                    <div class="col-3">Василий</div>                    
+                    <div class="w-100 mt-2">
+                    <audio controls>  
+                    <source src="../public/audio/harmonyFamilyVeda.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    </audio>
+                    </div>
+                    
+                    
+                   
+                    
+                    
+                    </div>
+                    
 
                     <div class="col-3"> </div>
                     <div class="col-6"></div>
@@ -164,6 +203,8 @@ $news = '
         </div><!-- /.card -->
     </div>
     <!-- ./Tab pane skype -->
+
+
 
     <!-- Tab pane yogaPractice -->
     <div class="tab-pane" id="yogaPractice" role="tabpanel"></div>

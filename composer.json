@@ -5,6 +5,7 @@
   "homepage" : "https://github.com/bigpoint/slim-bootstrap3",
   "keywords": ["microframework","rest","router","slim"],
   "license" : "Apache-2.0",
+  "phpmailer/phpmailer": "~6.0",
   "authors": [
     {
       "name": "Andreas Schleifer",
