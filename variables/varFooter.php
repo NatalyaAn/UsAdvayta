@@ -32,23 +32,29 @@ $footer = '
         <!--Column2-->
         <div class="footer-pad">
           <h4>Наши контакты</h4>
-          <ul class="list-unstyled">
-            
+          <ul class="list-unstyled mt-2">
+             <li class="mt-2"><a href="https://www.facebook.com/Dharma-Center-Laya-Yoga-USA-467297766625604/" target="_blank">
+             <i class="fa fa-facebook fa-2x mr-0"></i></a>
             </li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>            
+            
+            <li><a href="contacts.php"><i class="fa fa-envelope-o fa-2x mr-0" aria-hidden="true"></i></a></li>            
           </ul>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
         <!--Column3-->
         <div class="footer-pad">
-          <h4>Соц сети</h4>
+          <h4>Дружественные Сети</h4>
           <ul class="list-unstyled">
-          <li><a href="https://www.facebook.com/Dharma-Center-Laya-Yoga-USA-467297766625604/" target="_blank">
-            <i class="fa fa-facebook-official fa-2x mr-0"></i></a>
-            <li><a href="#"></a></li>  <!--https://vk.com/svami_visnudevananda_giri-->
-            <li><a href="#"></a></li>
+          
+           <li><a href="https://www.facebook.com/mahamandaleshwar" target="_blank">
+            <i class="fa fa-facebook fa-2x mr-0"></i></a></li>
+          <li><a href="https:////vk.com/svami_visnudevananda_giri" target="_blank">
+            <i class="fa fa-vk fa-2x mr-0"></i></a></li>
+            <li><a href="#"></a></li>  <!--https://vk.com/svami_visnudevananda_giri<i class="fa fa-vk" aria-hidden="true"></i>-->
+            <li><a href="http://advayta.org" target="_blank" class="link "  >Главный вебсайт</a></li>
+            <li><a href="http://ramanatha.advayta.org" target="_blank" class="link "  >Вебсайт Раманатха</a></li>
+            <li><a href="https://www.youtube.com/channel/UCEPPjoxhaTmiZL00N2RQgVQ" target="_blank" class="link "  >Видео лекции «Vedic World»</a></li>
            
           </ul>
         </div>

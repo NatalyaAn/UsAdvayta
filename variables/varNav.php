@@ -92,7 +92,7 @@ $nav = '
                 <a class="nav-link " href="home.php""></i>Главная<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="dharma.php""></a>
+                <a class="nav-link " href="dharma.php"">Три драгоценности</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="jnanaMarga.php"">Наш центр</a>

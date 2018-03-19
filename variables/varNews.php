@@ -43,7 +43,7 @@ $news = '
         <img src="../public/images/kailas.jpg" class="card-img-left   rounded float-left px-2 " style="" alt="...">
 
         
-        <h4 class="card-title">Поломничество на Кайлас</h4>
+        <h4 class="card-title">Паломничество на Кайлас</h4>
         <p><small>Приглашаем в паломничество учеников и последователей Гуру, а также духовных искателей – последователей Санатана Дхармы. </small> </p>
         <p><small></small></p>
         <p class="card-text font-weight-bold">19 августа - 4 сентября 2018</p>
@@ -65,7 +65,8 @@ $news = '
 
                         <p class="card-text">Начались онлайн занятия по изучению основ теории Учения</p>
                         <p class="card-text font-weight-bold">Время: с 8-10 pm 2-ой и 4-ый четверг каждого месяца.</p>
-                        <p class="card-text">Следующее занятие 15 марта.</p>
+                        <p class="card-text">Тема объявлена в расписании skype-занятий.</p>
+                        <p class="card-text">Следующее занятие 29 марта.</p>
                         <footer>
                             <a href="skype.php" class="card-link"></a>
                         </footer>
@@ -97,8 +98,8 @@ $news = '
                  <h4 class="card-title"><i class="fa fa-diamond fa-1x mr-2"></i>Ежемесячный ритрит </h4>
 
 
-           <p class="card-text">Мартовский ритрит в NJ пройдет: </p>
-           <p class="card-text font-weight-bold">17-18 марта (суббота, воскресенье) </p>
+           <p class="card-text">Следующий ритрит в NJ пройдет в июне: </p>
+           <p class="card-text font-weight-bold">23-24 июня (суббота, воскресенье) </p>
            <p class="card-text"></p>
                  <footer>
                  <a href="skype.php" class="card-link"></a>

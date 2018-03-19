@@ -59,34 +59,31 @@ include("layout/nav.php");
 
     <div class="card-columns ">
         <div class="card " >
-            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1545.jpg" alt="Card image">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_6.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img-top img-fluid" src="../public/images/picturesPage/dattajayanti/img_1543.jpg" alt="Card image">
+            <img class="card-img-top img-fluid" src="../public/images/picturesPage/dattajayanti/img_8.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img-top img-fluid" src="../public/images/picturesPage/dattajayanti/img_7994.jpg" alt="Card image">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_7.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_6795.jpg" alt="Card image">
+            <img class="card-img img-fluid " src="../public/images/picturesPage/dattajayanti/img_9.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img img-fluid " src="../public/images/picturesPage/dattajayanti/img_7989.jpg" alt="Card image">
-        </div>
-        <div class="card " >
-            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1544.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_5.jpg" alt="Card image cap">
         </div>
         <div class="card">
-            <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_15371.jpg" alt="Card image">
+            <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_10.jpg" alt="Card image">
         </div>
         <div class="card ">
-            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1538.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1.jpg" alt="Card image cap">
         </div>
         <div class="card ">
-            <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_1541.jpg" alt="Card image">
+            <img class="card-img-top img-fluid l" src="../public/images/picturesPage/dattajayanti/img_2.jpg" alt="Card image">
         </div>
         <div class="card " >
-            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_1542.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid " src="../public/images/picturesPage/dattajayanti/img_3.jpg" alt="Card image cap">
         </div>
     </div>
 
@@ -117,34 +114,34 @@ include("layout/nav.php");
 <div class="card-columns ">
 
     <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/luda.jpg" alt="Card image1">
+        <img class="card-img-top img-fluid " src="../public/images/picturesPage/visitRam2017dec/luda.jpg" alt="Card image1">
     </div>
     <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/ram.jpg" alt="Card image1">
+        <img class="card-img-top img-fluid " src="../public/images/picturesPage/visitRam2017dec/ram.jpg" alt="Card image1">
     </div>
     <div class="card " >
-        <img class="card-img-top img-fluid" src="../public/images/visitRam2017dec/img_1560.jpg" alt="Card image2">
+        <img class="card-img-top img-fluid" src="../public/images/picturesPage/visitRam2017dec/img_1560.jpg" alt="Card image2">
     </div>
     <div class="card " >
-        <img class="card-img-top img-fluid" src="../public/images/visitRam2017dec/img_1570.jpg" alt="Card image3">
+        <img class="card-img-top img-fluid" src="../public/images/picturesPage/visitRam2017dec/img_1570.jpg" alt="Card image3">
     </div>
     <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/sangha1.jpg" alt="Card image4">
+        <img class="card-img-top img-fluid " src="../public/images/picturesPage/visitRam2017dec/sangha1.jpg" alt="Card image4">
     </div>
     <div class="card " >
-        <img class="card-img img-fluid " src="../public/images/visitRam2017dec/fire.jpg" alt="Card image5">
+        <img class="card-img img-fluid " src="../public/images/picturesPage/visitRam2017dec/fire.jpg" alt="Card image5">
     </div>
     <div class="card " >
-        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/havan1.jpg" alt="Card image6">
+        <img class="card-img-top img-fluid " src="../public/images/picturesPage/visitRam2017dec/havan1.jpg" alt="Card image6">
     </div>
     <div class="card">
-        <img class="card-img-top img-fluid l" src="../public/images/visitRam2017dec/havan2.jpg" alt="Card image7">
+        <img class="card-img-top img-fluid l" src="../public/images/picturesPage/visitRam2017dec/havan2.jpg" alt="Card image7">
     </div>
     <div class="card ">
-        <img class="card-img-top img-fluid " src="../public/images/visitRam2017dec/havan3.jpg" alt="Card image8">
+        <img class="card-img-top img-fluid " src="../public/images/picturesPage/visitRam2017dec/havan3.jpg" alt="Card image8">
     </div>
     <div class="card ">
-        <img class="card-img-top img-fluid l" src="../public/images/visitRam2017dec/lak.jpg" alt="Card image9">
+        <img class="card-img-top img-fluid l" src="../public/images/picturesPage/visitRam2017dec/lak.jpg" alt="Card image9">
     </div>
 
 </div>

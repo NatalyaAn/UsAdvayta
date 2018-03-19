@@ -71,9 +71,9 @@ include("layout/news.php");
 <div class="jumbotron  p-4 m-0 " style="background:  ">
     <h3 class="text-center m-0 ">Даттаджаянти 2017</h3>
     <div class="card-block ">
-    <img src="../public/images/picturesPage/dattajayanti/img_1545.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
+    <img src="../public/images/picturesPage/dattajayanti/img_6.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
 
-        <img src="../public/images/picturesPage/dattajayanti/img_1538.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
+        <img src="../public/images/picturesPage/dattajayanti/img_8.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
         <p>День Явления Даттатрейи  прошёл 3 декабря. Наш Дхарма центр праздновал Даттаджаянти  вместе со всеми Ашрамами
             и Дхарма центрами разрастающейся по всему миру  Сангхи. Силу Благословений и Радость медитаций и джапы (повторений имени Даттатрейи),
             невозможно передать словами. Когда все братья и сёстры собираются вместе и совершают определённые ритуальные действия вместе, медитируют
@@ -83,7 +83,7 @@ include("layout/news.php");
         <p>Всех Благ!</p>
         <p>Намасте</p>
         </p>
-        <a href="pictures.php#datta" class="link">Фотографии </a>
+        <a href="pictures.php#datta" class="link linkColor">Фотоальбом </a>
     </div><!-- /.card-block-->
 </div><!-- /.jumbotron-->
 
@@ -92,9 +92,9 @@ include("layout/news.php");
     <h3 class="text-center m-0 ">Приезд санньяси Раманатха и Лакшиты ноябрь-декабрь 2017</h3>
     <div class="card border-0" style="background: lemonchiffon">
     <div class=" card-body card-block ">
-        <img src="../public/images/visitRam2017dec/img_1560.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
+        <img src="../public/images/picturesPage/visitRam2017dec/img_1560.jpg" class="card-img-left   rounded float-left px-4 " style="width: 400px" alt="...">
 
-        <img src="../public/images/visitRam2017dec/img_1570.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
+        <img src="../public/images/picturesPage/visitRam2017dec/img_1570.jpg" class="card-img-left   rounded float-right px-4 " style="width: 400px" alt="...">
         <p>Американская сангха с большим нетерпением ждет каждый приезд санньяси Раманатха и Лакшиты. Наше знакомство началось со скайп-занятий 4 года назад
             и переросло в ежегодные очные встречи. Это уже второй приезд Раманатха в этом году. Программа была очень насыщенная.  </p>
         <p><i class="fa fa-bolt fa-1x mr-2" aria-hidden="true"></i>Двухдневный семинар по Шакти-янтре включал теорию и практики по управлению внутренней энергией, Кундалини йоге, крийя-кундалини-йоге,
@@ -111,7 +111,7 @@ include("layout/news.php");
         <p><i class="fa fa-heart fa-1x mr-2" aria-hidden="true"></i>Заряд энергии и духовных знаний, данный санньяси, бережно хранится в наших сердцах и является большим вдохновением
             для выполнения служения и личной садханы. Намасте. </p>
         </p>
-        <a href="pictures.php#ram2017" class="link">Фотографии </a>
+        <a href="pictures.php#ram2017" class="link linkColor">Фотоальбом </a>
     </div><!-- /.card-block-->
     </div>
 </div><!-- /.jumbotron-->
