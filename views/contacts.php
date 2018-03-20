@@ -57,7 +57,7 @@
         <div class="card p-2 card-shadow color-primary-14">
             <div class="card-block ">
                 <small class="text">
-                    <h4 class="card-title">Наши контакты в США:</h4>
+                    <h4 class="card-title"><i class="fa fa-phone fa-1x mr-2" aria-hidden="true"></i>Наши контакты в США:</h4>
                     <h6 class="card-title">(732)309-5256 - Людмила</h6>
                     <h6 class="card-title">(646)645-1544 - Бадри</h6>
                     <h6 class="card-title"></h6>
@@ -71,12 +71,62 @@
                     </footer>
                 </small>
             </div>
-
-
-
-
         </div><!-- /.card -->
         </div><!-- /.card -->
+
+
+
+    <!-- ContactUs -->
+    <div class="container mt-5 ">
+        <div class="card p-5 card-shadow color-primary-14">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-3" >
+                <h4><i class="fa fa-envelope fa-1x mr-2" aria-hidden="true"></i>Написать письмо</h4>
+                <p>
+                    Если у Вас есть вопросы, пошлите их в сообщении ниже.
+<!--                    Please send your message below. We will get back to you at the earliest!-->
+                </p>
+
+
+                <form role="form" method="post" action="contactUsSend.php" >
+
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="comment">
+                                Текст письма:</label>
+                            <textarea class="form-control" type="textarea" name="comment" id="comment" maxlength="2000" rows="5" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">
+                                Ваше имя:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <label for="email">
+                                Ваш Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button type="submit" name="submit" class="btn btn-warning btn-default pull-right " >Отправить →</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.ContactUs -->
+
+
+
+
     <!-- #footer-->
 <!--    --><?php
 //    include("layout/footer.php");

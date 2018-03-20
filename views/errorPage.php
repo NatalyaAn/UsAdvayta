@@ -35,8 +35,39 @@
 
 
 <body>
+<header>
+    <div class="jumbotron jumbotron-fluid bgc card-shadow " >
+        <h3 class="text-center"></h3>
+        <p class="lead text-center"></p>
+        <p class="lead text-center"></p>
+    </div>
+</header>
+<!-- #nav bar-->
+<?php
+include("layout/nav.php");
+?>
+
+<div class="d-flex flex-sm-row justify-content-center " >
 
 
+    <div class="card p-2 card-shadow color-primary-14">
+        <div class="card-block ">
+            <small class="text">
+                <h4 class="card-title alert alert-danger">Произошла Ошибка! Извините, что-то случилось непредвиденное.</h4>
+
+                <h6 class="card-title"></h6>
+
+                <p class="card-text"></p>
+                <p class="card-text"></p>
+                <p class="card-text"></p>
+                <p class="card-text font-weight-bold"></p>
+                <footer>
+                    <a href="#" class="card-link"></a>
+                </footer>
+            </small>
+        </div>
+    </div><!-- /.card -->
+</div><!-- /.card -->
 
 
 
